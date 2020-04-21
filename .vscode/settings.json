@@ -4,7 +4,9 @@
         "SIGKILL",
         "devicemapper",
         "dmsetup",
+        "dockerd",
         "dpkg",
+        "overlayfs",
         "ubridge",
         "usermod",
         "whoami"
