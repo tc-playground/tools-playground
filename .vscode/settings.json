@@ -2,11 +2,17 @@
     "cSpell.words": [
         "SIGHUP",
         "SIGKILL",
+        "Virtualbox",
+        "Virtualisation",
+        "containerd",
         "devicemapper",
         "dmsetup",
         "dockerd",
         "dpkg",
+        "libvirtd",
         "overlayfs",
+        "runc",
+        "systemd",
         "ubridge",
         "usermod",
         "whoami"

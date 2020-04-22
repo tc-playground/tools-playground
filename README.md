@@ -13,6 +13,8 @@
 
 * `gns3`- Network simulator. [#](networking/gns3/01-intro.md)
 
+* `KVM` - Kernel Virtual Machine Hypervisor [#](virtualisaiton/hypervisors/kvm/01-intro.md)
+
 * `man` - An interface to the on-line reference manuals. (nix)
 
 * `wireshark` - Interactively dump and analyze network traffic. [#](networking/wireshark/01-intro.md)
@@ -21,7 +23,25 @@
 
 * `whoami` - Get the name of current user. (nix)
 
+* `virsh` - A CLI for managing virtual domains - Xen, QEMU, KVM, LXC, OpenVZ, VirtualBox, etc. [#](virtualisaiton/hypervisors/virsh/01-intro.md)
+
+* `virtualbox` - A Type2 Hypervisor for various platforms. [#](virtualisaiton/hypervisors/virtualbox/01-intro.md)
+
 * `vnc` - `Virtual Network Client` allows control of a remote machine running the `VNC server`.
+
+---
+
+## Daemons
+
+* `dockerd`
+
+* `containerd`
+
+* `libvirtd`
+
+* `runc`
+
+* `systemd`
 
 ---
 
@@ -34,6 +54,17 @@
 * `SIGHUP`
 
 * `SIGKILL`
+
+
+---
+
+## Linux Libraries
+
+* `glibc` - GNU Project's implementation of the C standard library. System  calls.
+
+* `libvirt` - Virtualisation API.
+
+* `libc` - ANSI implementation of the C standard library.  System  calls.
 
 
 ---
