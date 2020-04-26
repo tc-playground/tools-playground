@@ -47,6 +47,34 @@ sudo usermod -aG docker `whoami`
 
 ---
 
+## Configuration
+
+* `Virtualbox` - Create a `host network` and assign it to `GNS3 VM`.
+
+   * `VirtualBox`  -> `Host Network Manager` -> `Create Host Only Network`
+
+      * __Name__  : vboxnet0
+
+      * __IPv4__  : 192.168.56.1
+
+      * __Mask__  : 255.255.255.0
+
+* `GNS3` - Configure Server.
+
+   * `Edit` -> `Preferences` -> `Server` -> `Host Binding` -> `192.168.56.1`
+
+* `GNS3` - Configure Server and Cisco License Key
+
+   * `Edit` -> `Preferences` -> `IOS on Unix`
+
+      ```
+      [license]
+      gns3vm = 73635fd3b0a13ad0;
+      ```
+
+
+---
+
 ## References
 
 * [Linux - Official](https://docs.gns3.com/1QXVIihk7dsOL7Xr7Bmz4zRzTsJ02wklfImGuHwTlaA4/index.html)
@@ -54,3 +82,5 @@ sudo usermod -aG docker `whoami`
 * [Ubuntu 16](https://computingforgeeks.com/how-to-install-latest-gns3-network-simulator-on-ubuntu-18-04-ubuntu-16-04/)
 
 * [Cisco - IOS VM](https://gns3.com/news/article/how-to-setup-and-configure-cisco)
+
+* [Cisco GNS3 Images](https://srijit.com/working-cisco-ios-gns3)
