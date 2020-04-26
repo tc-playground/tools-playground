@@ -1,9 +1,17 @@
 
 ## Commands / Tools
 
+* `addgroup` - Add a group. (nix). [#](operating-systems/linux/user-management/addgroup.md)
+
+* `adduser` - Add a user. (nix). [#](operating-systems/linux/user-management/adduser.md)
+
 * `apt` - Advanced Package Tool command-line interface. [#](operating-systems/linux/package-management/apt/apt.md)
 
 * `curl` - Transfer data from one URL to another via a specified protocol.
+
+* `delgroup` - Delete a group. (nix). [#](operating-systems/linux/user-management/delgroup.md)
+
+* `deluser` - Delete a user. (nix). [#](operating-systems/linux/user-management/deluser.md)
 
 * `docker` - Docker image and container command line interface,
 
@@ -11,13 +19,17 @@
 
 * `dpkg-configure` - Reconfigure an already installed Debian package.
 
-* `gns3`- Network simulator. [#](networking/gns3/01-intro.md)
+* `gns3`- Network simulator. [#](networking/gns3)
 
-* `KVM` - Kernel Virtual Machine Hypervisor [#](virtualisaiton/hypervisors/kvm/01-intro.md)
+* `KVM` - Kernel Virtual Machine Hypervisor [#](virtualisaiton/hypervisors/kvm)
 
 * `man` - An interface to the on-line reference manuals. (nix)
 
-* `wireshark` - Interactively dump and analyze network traffic. [#](networking/wireshark/01-intro.md)
+* `wireshark` - Interactively dump and analyze network traffic. [#](networking/wireshark)
+
+* `useradd` - Add a user. (nix). [#](operating-systems/linux/user-management/useradd.md)
+
+* `userdel` - Delete a user. (nix). [#](operating-systems/linux/user-management/userdel.md)
 
 * `usermod` - Modify a user. (nix). [#](operating-systems/linux/user-management/usermod.md)
 
@@ -25,9 +37,11 @@
 
 * `virsh` - A CLI for managing virtual domains - Xen, QEMU, KVM, LXC, OpenVZ, VirtualBox, etc. [#](virtualisaiton/hypervisors/virsh/01-intro.md)
 
-* `virtualbox` - A Type2 Hypervisor for various platforms. [#](virtualisaiton/hypervisors/virtualbox/01-intro.md)
+* `virtualbox` - A Type2 Hypervisor for various platforms. [#](virtualisaiton/hypervisors/virtualbox)
 
 * `vnc` - `Virtual Network Client` allows control of a remote machine running the `VNC server`.
+
+addgroup.md  adduser.md  delgroup.md  deluser.md  groupadd.md  groupdel.md  useradd.md  userdel.md  usermod.md
 
 ---
 
@@ -46,6 +60,14 @@
 ---
 
 ## Linux Files (Debian/Ubuntu)
+
+* `/etc/adduser.conf` - Default configuration file for adduser and addgroup. Debian.
+
+* `/usr/local/sbin/adduser.local` - Optional custom add-ons. Debian.
+
+* `/etc/deluser.conf` - Default configuration file for deluser and delgroup. Debian.
+
+* `/usr/local/sbin/deluser.local` - Optional custom del-ons. Debian.
 
 ---
 

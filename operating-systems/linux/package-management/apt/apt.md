@@ -1,4 +1,4 @@
-# apt = Advanced Package Tool
+# apt - Advanced Package Tool
 
 ## Introduction
 

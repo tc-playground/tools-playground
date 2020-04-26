@@ -4,6 +4,8 @@
 
 * `usermod` command modifies the system account files to reflect the changes that are specified on the command line.
 
+* `usermod` is a low level command interface.
+
 ---
 
 ## Commands

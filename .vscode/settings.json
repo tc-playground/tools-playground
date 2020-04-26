@@ -1,10 +1,16 @@
 {
     "cSpell.words": [
+        "Hyve",
         "SIGHUP",
         "SIGKILL",
         "Virtualbox",
         "Virtualisation",
+        "Virtuozzo",
+        "addgroup",
+        "adduser",
         "containerd",
+        "delgroup",
+        "deluser",
         "devicemapper",
         "dfsg",
         "dkms",
@@ -12,13 +18,19 @@
         "dockerd",
         "dpkg",
         "eoan",
+        "groupadd",
+        "groupdel",
         "libvirtd",
         "netstat",
         "overlayfs",
         "runc",
+        "sbin",
         "systemd",
         "ubridge",
+        "useradd",
+        "userdel",
         "usermod",
+        "vboxnet",
         "whoami"
     ]
 }
