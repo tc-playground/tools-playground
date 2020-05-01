@@ -27,6 +27,8 @@
 
 * `wireshark` - Interactively dump and analyze network traffic. [#](networking/wireshark)
 
+* `update-grub2` - Is a stub for running `grub-mkconfig -o /boot/grub/grub.cfg` to generate a grub2 config file.
+
 * `useradd` - Add a user. (nix). [#](operating-systems/linux/user-management/useradd.md)
 
 * `userdel` - Delete a user. (nix). [#](operating-systems/linux/user-management/userdel.md)
@@ -63,11 +65,21 @@ addgroup.md  adduser.md  delgroup.md  deluser.md  groupadd.md  groupdel.md  user
 
 * `/etc/adduser.conf` - Default configuration file for adduser and addgroup. Debian.
 
-* `/usr/local/sbin/adduser.local` - Optional custom add-ons. Debian.
-
 * `/etc/deluser.conf` - Default configuration file for deluser and delgroup. Debian.
 
+* `/etc/default/grub` - Grub configuration.
+
+* `/etc/network/interfaces` - interfaces(5) file used by ifup(8) and ifdown(8).
+
+* `/etc/apt/sources.list` - Repository configuration. Debian. Ubuntu.
+
+* `/etc/apt/sources.list.d` - APT configuration directory. PPA configuration.
+
+* `/usr/local/sbin/adduser.local` - Optional custom add-ons. Debian.
+
 * `/usr/local/sbin/deluser.local` - Optional custom del-ons. Debian.
+
+* `/var/lib/apt/lists` - APT package manager repository cache.
 
 ---
 
