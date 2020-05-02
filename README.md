@@ -21,6 +21,10 @@
 
 * `gns3`- Network simulator. [#](networking/gns3)
 
+* `glxinfo` - Shows information about the OpenGL and GLX implementations running on a given X display.
+
+* `lspci` - A utility for displaying information about PCI buses in the system and devices connected to them.
+
 * `KVM` - Kernel Virtual Machine Hypervisor [#](virtualisaiton/hypervisors/kvm)
 
 * `man` - An interface to the on-line reference manuals. (nix)
@@ -43,7 +47,11 @@
 
 * `vnc` - `Virtual Network Client` allows control of a remote machine running the `VNC server`.
 
-addgroup.md  adduser.md  delgroup.md  deluser.md  groupadd.md  groupdel.md  useradd.md  userdel.md  usermod.md
+* `xdpyinfo` - Display information utility for X.
+
+* `xrandr` - A utility to set the size, orientation and/or reflection of the outputs for a screen. It can also set the screen size.
+
+
 
 ---
 

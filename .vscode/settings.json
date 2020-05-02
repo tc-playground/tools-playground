@@ -18,12 +18,14 @@
         "dockerd",
         "dpkg",
         "eoan",
+        "glxinfo",
         "groupadd",
         "groupdel",
         "ifdown",
         "ifup",
         "itsfoss",
         "libvirtd",
+        "lspci",
         "mkconfig",
         "netstat",
         "overlayfs",
@@ -35,6 +37,8 @@
         "userdel",
         "usermod",
         "vboxnet",
-        "whoami"
+        "whoami",
+        "xdpyinfo",
+        "xrandr"
     ]
 }
