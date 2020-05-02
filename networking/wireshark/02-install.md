@@ -46,7 +46,8 @@
 
 * [Linux - Official](https://www.wireshark.org/docs/wsug_html_chunked/ChapterBuildInstall.html)
 
-* [Ubuntu]()https://itsfoss.com/install-wireshark-ubuntu)
+* [Ubuntu - itsfoss](https://itsfoss.com/install-wireshark-ubuntu)
+
 
 
 
