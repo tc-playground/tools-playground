@@ -26,6 +26,14 @@
 
 ---
 
+## Configuration
+
+* `/etc/apt/sources.list` - APT Repository Configuration file.
+
+* `/etc/apt/sources.list.d` - APT configuration directory.
+
+---
+
 ## PPA (Personal Package Archive)
 
 * [PPA Guide](https://itsfoss.com/ppa-guide)
