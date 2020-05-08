@@ -24,6 +24,7 @@
         "ifdown",
         "ifup",
         "itsfoss",
+        "libcurl",
         "libvirtd",
         "lspci",
         "mkconfig",
