@@ -7,7 +7,7 @@
 
 * `apt` - Advanced Package Tool command-line interface. [#](operating-systems/linux/package-management/apt/apt.md)
 
-* `curl` - Transfer data from one URL to another via a specified protocol.
+* `curl` - Transfer data from one URL to another via a specified protocol. [#](networking/curl)
 
 * `delgroup` - Delete a group. (nix). [#](operating-systems/linux/user-management/delgroup.md)
 

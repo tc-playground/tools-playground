@@ -8,59 +8,76 @@
 
 ---
 
-## Examples
+## Basic Usage
 
-* `curl <url>` - Curl an HTTP URL.
+```bash
+curl <options> <url>
+```
 
-* `curl -o vlc.dmg http://some/file/on/the/web` - Download a file.
+---
 
-* `curl -L http://www.somepage.com/` - Follow redirects.
+## Command Line Options
 
-* `curl -L -i http://www.facebook.com/` - View HTTP response headers.
+* `-o <filename>` - Output to file.
 
-* `curl -v https://www.booleanworld.com/` - View HTTP request header and other details.
+* `-O` - Output to name of resource.
 
-* `curl -s https://www.booleanworld.com/` - Silence HTTP request header and other details.
+* `-C` - Continue existing partial download.
 
-* `curl -H 'X-My-Custom-Header: 123' https://httpbin.org/get` - Set headers.
+* `-F file=@<file>` - Upload a file.
 
-* `curl --data "firstname=boolean&lastname=world" https://httpbin.org/post` - Send HTTP POST data.
+* `-L` - Follow redirects.
 
-* __Submit JSON__
+* `-k` - Disable certificate checking.
 
-    ```
-    curl --data '{"email":"test@example.com", "name": ["Boolean", "World"]}' -H 'Content-Type: application/json' https://httpbin.org/post
-    ```
+* `-v` - View HTTP request header and connection details.
 
-* __Change HTTP Request Method__
+* `-w ` - View HTTP request header and connection details.
 
-    ```
-    curl -X POST https://httpbin.org/post
-    ```
+* `-s` - Hide the progress bar.
 
-* __Get HTTP Return code__
+* `-i` -  Include HTTP response headers.
 
-    ```
-    $?
-    ```
+* `-X <http-method>` - Include HTTP response headers.
 
-* __HTTP Authenticated Requests__
+* `-I` - HEAD method shortcut.
 
-    ```
-    curl -u boolean:world https://example.com/
-    ```
-* __Test Protocol Supoort__
+* `-H` -  Set HTTP request headers.
 
-    ```
-    curl -v --tlsv1.2 https://www.booleanworld.com/
-    ```
+* `-A` - Set `User-Agent` shortcut.
 
+* `-e` - Set `Referrer` shortcut.
 
+* `--data <data>` - Add post data.
+
+* `-d <data>` - Add post data.
+
+* `--data-urlencode` - Add url-encoded data
+
+* `-d @some.json` - Add post data from local file.
+
+* `-f` stores the curl mapped HTTP response code in the `shell exit-code variable`.
+
+* `-u <username>:<passwd>` - Specify `HTTP BAsic Auth` username and password.
+
+* `--sslv3` - Specify the protocol to use. This can be used to check if it is accepted by the server..
+
+* `--resolve` - Specify the virtual host and port of the target.
+
+* `-4` - Use IPv4 addressing.
+
+* `-6` - Use IPv4 addressing.
+
+* `~/.curlrc` - Allows global configuration options to be defined.
+
+* `-K` - Allow an arbitrary configuration file to be set.
 
 ---
 
 ## References
 
-* [curl - Home](https://curl.haxx.se/)
+* [curl - Home](https://curl.haxx.se)
 
 * [Tutorial - Binary Tides](https://www.booleanworld.com/curl-command-tutorial-examples)
+
+* [URL-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
