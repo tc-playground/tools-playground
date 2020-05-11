@@ -13,7 +13,9 @@
 
 * `deluser` - Delete a user. (nix). [#](operating-systems/linux/user-management/deluser.md)
 
-* `docker` - Docker image and container command line interface,
+* `dig` - A utility for performing DNS lookups and debugging DNS issues. [#](networking/dig)
+
+* `docker` - Docker image and container command line interface.
 
 * `dpkg` - Debian package manager. [#](operating-systems/linux/package-management/apt/dpkg.md)
 
@@ -23,11 +25,17 @@
 
 * `glxinfo` - Shows information about the OpenGL and GLX implementations running on a given X display.
 
+* `host` - A utility for performing DNS lookups.
+
+* `jq` - Command-line JSON processor. [#](development/jq)
+
 * `lspci` - A utility for displaying information about PCI buses in the system and devices connected to them.
 
 * `KVM` - Kernel Virtual Machine Hypervisor [#](virtualisaiton/hypervisors/kvm)
 
 * `man` - An interface to the on-line reference manuals. (nix)
+
+* `nslookup` - A utility for performing DNS lookups.
 
 * `wireshark` - Interactively dump and analyze network traffic. [#](networking/wireshark)
 
@@ -51,8 +59,6 @@
 
 * `xrandr` - A utility to set the size, orientation and/or reflection of the outputs for a screen. It can also set the screen size.
 
-
-
 ---
 
 ## Daemons
@@ -67,6 +73,18 @@
 
 * `systemd`
 
+    * `systemd-resolved`
+
+---
+
+## CLI Control Tools
+
+* `systemctl` - Control the systemd system and service manager.
+
+* `journalctl` - Query the systemd journal.
+
+* `resolvectl` - Resolve domain names, IP addresses, DNS records and services with the systemd-resolved.service(8) resolver service.
+
 ---
 
 ## Linux Files (Debian/Ubuntu)
@@ -75,13 +93,15 @@
 
 * `/etc/deluser.conf` - Default configuration file for deluser and delgroup. Debian.
 
+* `/etc/apt/sources.list` - Repository configuration. Debian. Ubuntu.
+
+* `/etc/apt/sources.list.d` - APT configuration directory. PPA configuration.
+
 * `/etc/default/grub` - Grub configuration.
 
 * `/etc/network/interfaces` - interfaces(5) file used by ifup(8) and ifdown(8).
 
-* `/etc/apt/sources.list` - Repository configuration. Debian. Ubuntu.
-
-* `/etc/apt/sources.list.d` - APT configuration directory. PPA configuration.
+* `/etc/resolv.conf` - DNS resolution file.
 
 * `/usr/local/sbin/adduser.local` - Optional custom add-ons. Debian.
 
@@ -122,3 +142,10 @@
 * `wireshark`
 
 * `docker`
+
+
+---
+
+## Networking
+
+* `protocols` - Common networking protocols. [#](networking/protocols)
