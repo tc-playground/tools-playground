@@ -4,6 +4,7 @@
         "FQDN",
         "Hyve",
         "Nameservers",
+        "Passthrough",
         "SIGHUP",
         "SIGKILL",
         "Virtualbox",

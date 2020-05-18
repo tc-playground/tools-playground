@@ -28,7 +28,6 @@
 
     * `virt-manager` UI management tool.
 
-
 ---
 
 ## References

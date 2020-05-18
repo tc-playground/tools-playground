@@ -26,6 +26,8 @@
 
 * [DNS Introduction](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)
 
+* [Digital Ocean DNS](https://www.digitalocean.com/docs/networking/dns/)
+
 * [Configure Domain Registrar to point to DO Nameservers](https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars)
 
 * [Manage DNS Records](https://www.digitalocean.com/docs/networking/dns/how-to/manage-records/)
