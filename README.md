@@ -128,6 +128,7 @@
 
 * `libc` - ANSI implementation of the C standard library.  System  calls.
 
+* `libpcap` - Interface to linux kernel packet capture mechanisms.
 
 ---
 
