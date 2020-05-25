@@ -1,4 +1,4 @@
-# libpcap - PAcket Capture Library.
+# libpcap - Packet Capture Library.
 
 ## Introduction
 
