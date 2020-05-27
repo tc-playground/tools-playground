@@ -37,3 +37,5 @@
 
 * [PEP Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
 
+* [Good Doc Strings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+

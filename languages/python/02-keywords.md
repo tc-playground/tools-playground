@@ -1,4 +1,4 @@
-# Python Syntax
+# Python Keywords
 
 ---
 

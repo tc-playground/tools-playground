@@ -18,20 +18,51 @@
 
 ```python
 class Shirt:
+    """The Shirt class represents an article of clothing sold in a store.
+    """
 
-    def __init__(self, shirt_color, shirt_size, shirt_style, shirt_price):
-        self.color = shirt_color
-        self.size = shirt_size
-        self.style = shirt_style
-        self.price = shirt_price
+    def __init__(self, color, size, style, price):
+        """Constructor for initializing a Shirt object
+
+        Args: 
+            color (str)
+            waist_size (int)
+            style (string)
+            price (float)
+
+        Attributes:
+            color (str): color of a shirt object
+            size (str): size of a shirt object
+            style (str): style of a shirt object
+            price (float): price of a shirt object
+        """
+        self.color = color
+        self.size = size
+        self.style = style
+        self.price = price
     
     def change_price(self, new_price):
-    
+        """Changes the price of a shirt.
+
+        Args: 
+            new_price (float): the new price of the pants object
+
+        Returns: None
+
+        """
         self.price = new_price
         
-    def discount(self, discount):
+    def discount(self, discount_rate):
+        """Returns the discounted price of a shirt at the specified rate.
 
-        return self.price * (1 - discount)
+        Args: 
+            discount_rate (float): A value between 0 and 1 denoting the discount rate.
+
+        Returns:
+            float: the discounted price
+
+        """
+        return self.price * (1 - discount_rate)
 ```
 
 ---
