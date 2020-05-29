@@ -34,6 +34,14 @@
 
 ---
 
+## Base Installation
+
+```bash
+
+```
+
+---
+
 ## References
 
 * [Python - Home](https://www.python.org/)
