@@ -31,6 +31,26 @@
 
 ---
 
+## Bayes Rule - Python
+
+```python
+# p0: P(C)      - prior
+# p1: P(Pos|C)  - sensitivity
+# p2: P(Neg|¬C) - specificity
+
+# Return the probability of A conditioned on B given that: 
+# P(A)=p0, P(B|A)=p1, and P(Not B|Not A)=p2 
+def bayes_rule_pos(p0, p1, p2):
+    return p0 * p1 / (p0 * p1 + (1 - p0) * (1 - p2))
+
+# Return the probability of A conditioned on Not B given that: 
+# P(A)=p0, P(B|A)=p1, and P(Not B|Not A)=p2 
+def bayes_rule_neg(p0, p1, p2):
+    return return p0 * (1 - p1) / (p0 * (1 - p1) + (1 - p0) * p2)
+```
+
+---
+
 ## Probabilistic Inference
 
 * `prior probability` * `test evidence` -> `posterior probability`
@@ -119,3 +139,4 @@
 * [A Bayesian Review of Amazon Resellers](https://www.johndcook.com/blog/2011/09/27/bayesian-amazon/)
 
 * [Bayes Theorem - Wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+
