@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* `strace` is a program to trace `library calls`.
+* `ltrace` is a program to trace `library calls`.
 
 ---
 
