@@ -32,3 +32,5 @@
 * [socat - Tutorial](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
 
 * [Redirecting TCP-traffic to a UNIX domain socket under Linux](https://stackoverflow.com/questions/2149564/redirecting-tcp-traffic-to-a-unix-domain-socket-under-linux)
+
+* [socat-fu](https://www.pentestpartners.com/security-blog/socat-fu-lesson/)
