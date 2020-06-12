@@ -29,8 +29,16 @@
 
 * [socat - Wikipedia](https://en.wikipedia.org/wiki/Netcat#Ports_and_reimplementations)
 
+* [socat - man](https://linux.die.net/man/1/socat)
+
+    * [socket - man](https://man7.org/linux/man-pages/man7/socket.7.html)
+
+    * [bind - man](https://man7.org/linux/man-pages/man2/bind.2.html)
+
 * [socat - Tutorial](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
 
 * [Redirecting TCP-traffic to a UNIX domain socket under Linux](https://stackoverflow.com/questions/2149564/redirecting-tcp-traffic-to-a-unix-domain-socket-under-linux)
 
 * [socat-fu](https://www.pentestpartners.com/security-blog/socat-fu-lesson/)
+
+* [Socat + Docker Download Service](https://medium.com/@jmarhee/using-socat-in-docker-to-power-a-single-use-download-service-96134eb8131e)
