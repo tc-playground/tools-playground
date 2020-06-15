@@ -14,6 +14,14 @@
 
 ---
 
+## Remember!
+
+* All `methods` (including the (`__init__`) constructor, must contain a reference to the object as the first parameter. 
+
+    * By convention this is called `self`.
+
+---
+
 ## Example
 
 ```python

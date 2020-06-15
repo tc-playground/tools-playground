@@ -19,8 +19,11 @@ sudo apt install python3-pip
 ## Install Packages
 
 ```bash
+# pip install package==version
 pip install numpy matplotlib
 ```
+
+> Packages can be found at: [Python Package Index](https://pypi.org/)
 
 ---
 

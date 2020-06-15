@@ -1,7 +1,5 @@
 # Modules
 
-
-
 ## Modules and Imports
 
 1. __List__ the available modules via the `repl`: `help('modules')`
