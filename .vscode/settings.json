@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "Alibaba",
+        "Bombal",
         "Bootloader",
         "CNAME",
         "Computerphile",
@@ -9,6 +10,7 @@
         "DMA",
         "DMA’d",
         "DTLS",
+        "Dempers",
         "Diffie",
         "Dockerfiles",
         "Docstring",
@@ -30,6 +32,7 @@
         "Ipset",
         "JIRA",
         "LXCFS",
+        "Layher",
         "Lockdown",
         "MITHM",
         "Minikube",
@@ -41,7 +44,9 @@
         "OCIDs",
         "PLEN",
         "POSIX",
+        "PTRACE",
         "PTYPE",
+        "PYTHONPATH",
         "Paramiko",
         "Passthrough",
         "Runbooks",
@@ -51,6 +56,8 @@
         "SMTPS",
         "Solaris",
         "Spys",
+        "Sridharan",
+        "Theming",
         "Virtualbox",
         "Virtualisation",
         "Virtuozzo",
@@ -74,6 +81,7 @@
         "cgroupfs",
         "ciphertext",
         "claas",
+        "commandline",
         "configmaps",
         "connlimit",
         "conntrack",
@@ -146,6 +154,7 @@
         "meminfo",
         "mkconfig",
         "namelookup",
+        "nargs",
         "nbins",
         "ncat",
         "netmiko",
@@ -197,6 +206,7 @@
         "tshark",
         "ubridge",
         "ulimit",
+        "unpause",
         "urlencode",
         "useradd",
         "userdel",
@@ -213,6 +223,7 @@
         "xlim",
         "xrandr",
         "xticks",
-        "ylim"
+        "ylim",
+        "zipfiles"
     ]
 }
