@@ -25,6 +25,27 @@
 
     * [Example](https://www.informit.com/articles/article.aspx?p=23618&seqNum=4)
 
+* __select__ - synchronous I/O multiplexing
+
+    * `select`, `pselect`
+
+    * Allow a program to `monitor multiple file descriptors`, waiting until one or more of the file descriptors become "ready" for some class of I/O operation.
+
+* __poll__
+
+* __read__
+
+* __close__
+
+* __shutdown__
+
+* __open__
+
+* __pipe__
+
+* __socket__
+
+
 
 ---
 
