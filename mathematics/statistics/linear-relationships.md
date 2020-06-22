@@ -1,0 +1,1 @@
+* Things can be linear - without having a fixed rate / gradient as there may be a constant involved.
