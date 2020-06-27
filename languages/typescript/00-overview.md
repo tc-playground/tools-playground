@@ -8,7 +8,12 @@
 
 ---
 
-## References
+
+
+
+---
+
+## TypeScript References
 
 * [TypeScript - Home](https://www.typescriptlang.org/)
 
@@ -16,4 +21,12 @@
 
 * [TypeScript - HandBook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
-* [TypeScript Book - web.dev](https://github.com/basarat/typescript-book)
+* [TypeScript Book - GitHub](https://github.com/basarat/typescript-book)
+
+---
+
+## Programming References
+
+* [Scoping](https://scotch.io/tutorials/understanding-scope-in-javascript)
+
+* [Promises](https://web.dev/promises/)
