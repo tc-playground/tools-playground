@@ -2,7 +2,17 @@
 
 ## Introduction
 
-## Type
+## Types
+
+* `Types` are a way of __defining__ what `properties` and `methods` a `value` has.
+
+    * NB: A `value` is anything that can be assigned to a `variable`.
+
+* `Types` can be _categorised_:
+
+    * __Primitive Types__ - `number`, `string`, `boolean`, `symbol`, `void`, `undefined`, `null`.
+
+    * __Complex Types__ - `array`, `object`,`class`, `function`.
 
 * `Types` increase your agility when doing refactoring. 
 

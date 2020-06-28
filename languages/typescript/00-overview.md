@@ -6,10 +6,6 @@
 
 * `TypeScript` has optional typing.
 
----
-
-
-
 
 ---
 
