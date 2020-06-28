@@ -1,7 +1,15 @@
 # JavaScript
 
+## Introduction
+
+
+
 ---
 
 ## References
 
-* [Promises - web.dev](https://web.dev/promises/)
+## Programming References
+
+* [Scoping](https://scotch.io/tutorials/understanding-scope-in-javascript)
+
+* [Promises](https://web.dev/promises/)
