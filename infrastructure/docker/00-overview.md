@@ -6,6 +6,10 @@
 
     * Make concurrency easier.
 
+* `docker` containers should generally have one main process:
+
+    * You can connect multiple containers using `user-defined networks` and `shared volumes`.
+
 ---
 
 ## References

@@ -8,12 +8,11 @@
 
     1. __Overridable__ : Both `ENTRYPOINT` and `CMD` separately overridable at runtime.
 
-    2. __Optional__ : Both `ENTRYPOINT` and `CMD` may be empty
+    2. __Optional__ : Both `ENTRYPOINT` and `CMD` may be empty.
 
     > By addition (+), meant concatenation of `ENTRYPOINT` and `CMD`, respectively, in `array context`.
 
 3. Dockerfile `ENTRYPOINT` and `CMD` definitions are always converted to `arrays`. 
-
 
 ---
 
