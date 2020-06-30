@@ -35,9 +35,11 @@
 
     * [bind - man](https://man7.org/linux/man-pages/man2/bind.2.html)
 
-* [socat - Tutorial](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
+* [socat - Concepts](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
 
 * [Redirecting TCP-traffic to a UNIX domain socket under Linux](https://stackoverflow.com/questions/2149564/redirecting-tcp-traffic-to-a-unix-domain-socket-under-linux)
+
+* [Create HTTP Server with Socat](https://unix.stackexchange.com/questions/448837/create-https-server-with-socat)
 
 * [socat-fu](https://www.pentestpartners.com/security-blog/socat-fu-lesson/)
 

@@ -6,6 +6,13 @@
     curl example.com
     ```
 
+* __Unix Socket Usage__
+
+    ```bash
+    curl --unix-socket /var/run/docker.sock http:/images/json
+    ```
+
+
 * __File Download__
 
     * `-o <filename>` - Output to file.
