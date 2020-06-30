@@ -21,4 +21,10 @@
 
 8. __Reviewed Code__
 
+---
+
+## References
+
+* [Effective Mental Models for Code and Systems](https://medium.com/@copyconstruct/effective-mental-models-for-code-and-systems-7c55918f1b3e)
+
 

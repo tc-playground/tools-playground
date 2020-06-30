@@ -1,5 +1,9 @@
 # Continuously Refactored Code
 
+> Optimise of Understandability
+
+* [Effective Mental Models for Code and Systems](https://medium.com/@copyconstruct/effective-mental-models-for-code-and-systems-7c55918f1b3e)
+
 ## Introduction
 
 > `code reviews` catch errors, ensure standards are met, and, spread knowledge.
@@ -65,7 +69,6 @@
 4. Explain issues and make suggestions.
 
 5. Keep your comments objective.
-
 
 6. Provide code examples.
 ---
