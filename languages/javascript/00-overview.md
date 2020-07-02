@@ -2,7 +2,9 @@
 
 ## Introduction
 
+* `JavaScript` is an `object prototype` based language - New `objects` are instantiated be `cloning` existing objects.
 
+* `JavaScript` is a `dynamic` language - `objects` properties can `added`/`removed` at `runtime`.
 
 ---
 
