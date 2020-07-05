@@ -6,6 +6,18 @@
 
 ---
 
+## Node Internals
+
+* `<node_internals>/internal/timer.js` - Implements the `Node.js` timers.
+
+    * `processTimers`
+
+* `<node_internals>/internal/process/task_queue.js`
+
+    * `runNextTicks`
+
+---
+
 ## References
 
 * [Node.js - Home](https://nodejs.org/en/)
@@ -16,4 +28,4 @@
 
 * [JavaScript Runtime Environment](https://medium.com/@olinations/the-javascript-runtime-environment-d58fa2e60dd0)
 
-* [Node.js - Under the Hood - 1](https://dev.to/khaosdoctor/node-js-under-the-hood-1-getting-to-know-our-tools-1465)
+* [Node.js - Under the Hood](https://dev.to/khaosdoctor/node-js-under-the-hood-1-getting-to-know-our-tools-1465)
