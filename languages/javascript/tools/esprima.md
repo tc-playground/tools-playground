@@ -21,3 +21,5 @@
 * [Esprima - Docs](https://esprima.org/doc/index.html)
 
 * [ECMAScript Spec](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+
+* [Understanding ECMAScript](https://v8.dev/blog/understanding-ecmascript-part-1)

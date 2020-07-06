@@ -27,3 +27,16 @@ Also note that you can provide any number of objects to merge:
     //   "z": 3,
     // }
     ```
+
+---
+
+## Object Properties
+
+* `own values` are values that belong to the object itself and not the prototpye.
+
+
+---
+
+## References
+
+* [Object Properties](https://dmitripavlutin.com/how-to-iterate-easily-over-object-properties-in-javascript/)
