@@ -43,6 +43,14 @@
 
     > NB: Modifiers cannot be `overridden` in child classes.
 
+---
+
+## Conventions
+
+* Source files containing export classes are normally capitalised.
+
+    e.g. `Point.ts` contains the `Point` class.
+
 
 ---
 

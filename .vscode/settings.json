@@ -216,6 +216,7 @@
         "scikit",
         "sflow",
         "sflowd",
+        "snabbdom",
         "socat",
         "someglobal",
         "sslv",
