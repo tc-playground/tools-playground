@@ -142,6 +142,7 @@
         "icmp",
         "ifdown",
         "ifup",
+        "initialised",
         "inodes",
         "instanceof",
         "iptables",
