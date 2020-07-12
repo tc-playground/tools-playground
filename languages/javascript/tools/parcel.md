@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* `parcel` is a `web application` bundler.
+* `parcel` is a `web application` bundler for `JavaScript` based languages.
 
 ---
 
