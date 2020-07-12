@@ -272,3 +272,40 @@ const p1: PointTuple = ["p1", 1, 2];
     ```
 
 ---
+
+## Type Union '|' Operator
+
+* `|` type union operator can be used as an an `or` when defining the type of variables.
+
+* The `|` operator creates a new type that only has the properties shared by all variables.
+
+* __Example__
+
+    ```ts
+    // 'p' will have no properties available until resolved.
+    const p: 2DPoint | undefined;
+    if (p) {
+        console.log(`${p.x}, ${p.y}`);
+    }
+    ```
+
+> NB: `interfaces` are a better method for allowing multiple types into generic functions.
+
+---
+
+## Type Guards
+
+* `Type Guards` allow the TypeScript type checker to regain access to properties on a type.
+
+    ```ts
+    function sort(col: number[] | string) {
+        if (col instanceof Array) {
+            //...
+        } else if (col typeof String) {
+            //...
+        }
+    }
+
+* `typeof` - USed for `primitive values` (number, string, boolean, symbol).
+
+* `instanceof` - Used for `classes`.

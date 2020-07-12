@@ -34,7 +34,7 @@
 
     ```bash
     # tsc <src.ts>
-    tsc greeter.tsc
+    tsc greeter.ts
     ```
 
 ---
