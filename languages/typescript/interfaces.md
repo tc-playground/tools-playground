@@ -14,6 +14,10 @@
 
 * `interfaces` can use `primitive`, `object`, `functions`, and, any other complex type.
 
+* `interfaces` can declare required `methods` and be used as a mechanism for `generics`.
+
+* `interface` promote `loose coupling` compared to `abstract classes`.
+
 ---
 
 ## Example
@@ -54,3 +58,30 @@
     const p1 = { label: 'p1', x: 1, y: 2 };
     const point = p1 as IPoint;
     ```
+
+---
+
+## Generics
+
+```ts
+interface Sortable {
+    length(): number,
+    compare(leftIdx: number, rightIdx: number): number, 
+    swap(leftIdx: number, rightIdx: number): void 
+}
+
+class NumberSorter implements Sortable {
+    constructor(public data: number[]);
+    length() { ... }
+    ...
+}
+
+class CharacterSorter implements Sortable {
+    constructor(public data: string);
+    length() { ... }
+    ...
+}
+
+
+sort(col: Sortable);
+```

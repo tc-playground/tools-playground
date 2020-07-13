@@ -74,6 +74,8 @@ var p3 = p1.add(p2); // { x: 10, y: 30 }
 
 ## Basic Class Inheritance Example
 
+* The `extends` inheritance operations is like `copying` all the `properties` from the parent class into the child class.
+
 ```ts
 class 3DPoint extends 2DPoint {
     constructor(public x: number, public y: number, public z: number)) {
@@ -88,7 +90,37 @@ class 3DPoint extends 2DPoint {
 
 ---
 
+## Abstract Classes
+
+* `abstract classes` cannot be instantiated directly.
+
+* `abstract classes` can define properties and method `stubs` that must be implemented by extending classes.
+
+* `abstract classes` can be used to defined a `strategy` or `default algorithm` whose `specific details` are implement in extending classes.
+
+* * `abstract classes` promote `strong coupling` compared to `interfaces`.
+
+```ts
+interface Sortable {
+    length(): number,
+    compare(leftIdx: number, rightIdx: number): number, 
+    swap(leftIdx: number, rightIdx: number): void 
+}
+
+export abstract class Sorter {
+    abstract length(): number,
+    abstract compare(leftIdx: number, rightIdx: number): number, 
+    abstract swap(leftIdx: number, rightIdx: number): void 
+}
+```
+
+---
+
 ## Class Modifiers
+
+* The `visibility` of the properties can be `public`, `protected`, or `private`. 
+
+* The `default` is `public`.
 
 ```ts
 class 3DPoint extends 2DPoint {
