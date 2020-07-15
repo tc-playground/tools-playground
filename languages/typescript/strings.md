@@ -1,6 +1,12 @@
 # Strings
 
-## __Template Strings__
+## Introduction
+
+* `strings` are immutable.
+
+---
+
+## Template Strings
 
 * `template strings` are defined using the ``back-tick` character.
 
@@ -14,3 +20,11 @@
             string.
         `)
         ```
+
+---
+
+## Common Methods
+
+* `indexOf` - Find the index of the first occurrence of a string
+
+* `split` - Tokenise a string into an array of strings base on a delimiter.

@@ -39,6 +39,15 @@
 
 ---
 
+## Node Type Definition File
+
+```bash
+npm install @types/node
+```
+
+
+---
+
 ## Reference
 
 * [TypeScript in 5 mins](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)

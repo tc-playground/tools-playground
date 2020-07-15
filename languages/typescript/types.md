@@ -273,7 +273,7 @@ const p1: PointTuple = ["p1", 1, 2];
 
 ---
 
-## Type Union '|' Operator
+## Union Types - Type Union '|' Operator
 
 * `|` type union operator can be used as an an `or` when defining the type of variables.
 
@@ -309,3 +309,15 @@ const p1: PointTuple = ["p1", 1, 2];
 * `typeof` - USed for `primitive values` (number, string, boolean, symbol).
 
 * `instanceof` - Used for `classes`.
+
+---
+
+## Type Assertions ans Casting
+
+* `Type assertions` can be used to `cast` data.
+
+```ts
+const someVar: any;
+someVar = 123;
+const someNumber = someVar as number;
+```
