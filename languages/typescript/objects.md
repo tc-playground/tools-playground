@@ -1,5 +1,11 @@
 # Objects
 
+
+## Object `assign`
+
+
+---
+
 ## Spread `...` Operator
 
 * The `spread operator` is defined by the `...` syntax.
@@ -18,7 +24,7 @@ Also note that you can provide any number of objects to merge:
     const 2dPoint = { x: 1, y: 2 };
     const 3dPoint = { ...2dPoint,  z: 3 };
     const meta = { name: "origin" };
-    const annotatedPoint = { ...meta, ..3dPoint };
+    const annotatedPoint = { ...meta, ...3dPoint };
     // Object {
     //   "name": "origin",
     //   "x": 1,
