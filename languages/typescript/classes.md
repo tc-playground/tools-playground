@@ -133,3 +133,21 @@ class 3DPoint extends 2DPoint {
     }
 }
 ```
+
+---
+
+## Static Methods
+
+* `classes` support the concept of `static methods`.
+
+    ```ts
+    class Point() {
+        constructor(public x: number, public y: number);
+
+        static build(x: number, y: number) {
+            return new Point(x, y);
+        }
+    }
+
+    const p = Point.build(1, 2);
+    ```
