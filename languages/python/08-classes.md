@@ -165,5 +165,22 @@ class Shirt:
             return self.a1 + self.a2
     ```
 
+---
 
+## Inheritance
+
+* pythons supports `single` and `multiple` inheritance.
+
+* Pass in the parent classes in as a parameters.
+
+* In this __init__ method, call the parent class __init__ method.
+
+* __Example__
+
+    ```python
+    class Blouse(Clothing):
+        def __init__(self, color, size, style, price, country_of_origin):
+            Clothing.__init__(self, color, size, style, price)
+            self.country_of_origin = country_of_origin
+    ```
 
