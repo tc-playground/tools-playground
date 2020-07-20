@@ -2,7 +2,7 @@
 
 ---
 
-## Introduciton
+## Introduction
 
 * `SpiderMonkey` is Mozilla's JavaScript engine.
 
