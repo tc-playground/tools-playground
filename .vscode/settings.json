@@ -225,6 +225,7 @@
         "someglobal",
         "sslv",
         "starttransfer",
+        "stdbool",
         "strace",
         "sysfs",
         "systemctl",
