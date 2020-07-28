@@ -13,3 +13,13 @@
 * `c header files` are used by the `preprocessor` to declare `source file` and `library` resources to import and use. 
 
 * `c programs` have a `main` function where the program starts.
+
+* `c` programs consist of `expressions` and `statements`.
+
+    * `expressions` - Are combinations of `operators` and/or `operands` that return a `result`.
+
+    * `statements` - Are the basic program steps. They may consist of expression.
+
+        * `expression`, `assignment`, `function call`, `structure`, `return`, etc.
+
+        * `statements` end in semicolon `;`.

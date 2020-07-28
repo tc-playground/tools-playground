@@ -26,7 +26,7 @@
 
 ## Escape Characters
 
-* `escape characters` allow special character to be defined
+* `escape characters` allow special `character` or `action` to be defined
 
     * `\n` - New line.
 
