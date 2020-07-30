@@ -10,6 +10,8 @@
 
     * e.g. `file seek position in bytes`.
 
+    * e.g. `open input/output files`.
+
 * A `process` can have multiple `file descriptors`.
 
     * When creating a new `process`, the `options` specified denote what `file descriptors` are inherited.
@@ -28,9 +30,13 @@
 
 ## System Calls
 
-* `select`
+* `poll` - poll is a POSIX system call to wait for one or more file descriptors to become ready for use.
 
-* `poll` - 
+    * [Wikipedia](https://en.wikipedia.org/wiki/Select_(Unix))
+
+* `select` - is a `system call` for examining the `status of file descriptors` of open `input/output channels`.
+
+    * [Wikipedia](https://en.wikipedia.org/wiki/Select_(Unix))
 
 * `epoll` - Is a system call for a scalable I/O event notification mechanism.
 
