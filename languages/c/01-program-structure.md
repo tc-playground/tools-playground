@@ -23,3 +23,11 @@
         * `expression`, `assignment`, `function call`, `structure`, `return`, etc.
 
         * `statements` end in semicolon `;`.
+
+* `c` programs use `blocks` for scope. These are defined by a pair of curly braces `{}`.
+
+---
+
+## References
+
+* [C Language - Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))
