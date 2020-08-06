@@ -68,13 +68,13 @@
 
 ## Knative Brokers - Asynchronous Events
 
-1. __Broker__ - Are endpoints for handling `events` in the system. They pass ne events to a set of `triggers` to `filter` and `forward` events.
+1. `brokers` - Are endpoints for handling `events` in the system. They pass ne events to a set of `triggers` to `filter` and `forward` events.
 
-    1. __Triggers__ - Handle a `defined set of events`. Triggers allow the `incremental composition of event flows`.
+    1. `triggers` - Handle a `defined set of events`. Triggers allow the `incremental composition of event flows`.
 
-        1. __Filters__ - Define which `events` the `trigger` is interested in.
+        1. `filters` - Define which `events` the `trigger` is interested in.
 
-        2. __Subscribers__ - Defines were to send `events`.
+        2. `subscribers` - Defines were to send `events`.
 
 ---
 
