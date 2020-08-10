@@ -157,7 +157,7 @@
 
 ---
 
-## Revision - Resource Limits
+## Revision - Resource and Concurrency Limits
 
 1. A new `revision` with new __resource limits__ can be created __directly__ with the `kn` tool.
 
@@ -174,4 +174,53 @@
     * `limits-cpu`
 
     * `limits-memory`
+
+2. A new `revision` with new __concurrency limits__ can be created __directly__ with the `kn` tool.
+
+    ```bash
+    kn service update hello-example --concurrency-limit 1
+    ```
+
+    * `concurrency-limit` - set a maximum level of concurrency.
+
+        * The concurrency limit is a hard threshold for scaling.
+        
+        * If the average number of requests exceeds this limit, the `Autoscaler` wil provision more service instances.
+    
+    * `concurrency-target` -  set a desired level of concurrency.
+
+    ```yaml
+    apiVersion: service.knative.dev/v1
+    kind: Configuration
+        # ...
+        spec:
+            template:
+                spec:
+                    containerConcurrency: 1
+    ```
+
+---
+
+## Revision - Timeout Configuration
+
+* `timeoutSeconds` defines how long to wait until an invocation responds to a request.
+
+    ```bash
+    kubectl -f example.yaml
+    ```
+
+    ```bash
+    apiVersion: service.knative.dev/v1
+    kind: Configuration
+    # ...
+    spec:
+        template:
+            spec:
+                timeoutSeconds: 300
+    ```
+
+    > Bugs in a function with a high timeout  can cause results to pile up...
+
+
+
 
