@@ -5,12 +5,12 @@
 * `cgroups` are mechanism to add `limits` to (Linux) `process`.
 
     * __Resource Limits__ - A group can be configured not to:
-    
-        * Exceed a specified memory limit.
+
+        * __Memory__ - Exceed a specified memory limit.
         
-        * Ese more than the desired amount of processors.
+        * __CPU__ -  Use more than the desired amount of processors.
         
-        * Limited to specific peripheral devices.
+        * __Peripherals__ - Limited to specific peripheral devices.
     
     * __Prioritization__ - one or more groups may be configured to utilize fewer or more CPUs or disk I/O throughput.
     
@@ -58,21 +58,21 @@
 
 1. __apt__
 
-    ```
+    ```bash
     sudo apt-get install libcgroup1 cgroup-tools
     ```
 
 2. __yum__
 
-    ```
+    ```bash
     sudo yum install libcgroup libcgroup-tools
     ```
 
 ---
 
-## sysfs usage
+## sysfs `/sys` pseudo filesystem usage
 
-1. __Memory Example__
+1. __Memory Example__ - Manage `cgroup` via `/sys` pseudo filesystem
 
     ```bash
     # Create a new cgroup
@@ -113,7 +113,7 @@
 
 ---
 
-## systemd persistent cgroups
+## systemd persistent cgroups usage
 
 * __Config__ - `/etc/cgconfig.conf`
 
