@@ -4,6 +4,8 @@
 
 1. `Service` - Defines a service endpoint that can be invoked.
 
+  1. `Configuration` - Defined a service.
+
 2. `Revision` - Defines a version of the service. 
 
   > Every time a service is deployed or changed a new revision is created, unless it is changing a `route`.
@@ -12,5 +14,4 @@
 
 3. `Routes` - Split traffic between `revisions`.
 
----
 
