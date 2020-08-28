@@ -1,6 +1,6 @@
 # Installation
 
-## Cloud Provider Service
+## Cloud Provider Managed Service
 
 ---
 
