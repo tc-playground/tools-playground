@@ -74,4 +74,8 @@
 
 * `kubectl log <pod> -c <container>` - Get the logs from the pods specified container.
 
+---
 
+## Pod Run Commands
+
+* `kubectl run --image=nginx --labels="app=core-k8s-demo" nginx` - Create an `nginx` pod.

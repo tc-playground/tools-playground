@@ -16,7 +16,11 @@
 
 4. __pod scheduling factors__
 
-5. __pod scheduling control__
+5. __labels and selectors__
+
+    1. `labels` and `selectors` can be used to always `pin` a `pod` on a `specific node`.
+
+6. __pod scheduling control__
 
     1. `affinity` - Attract pods to a node that matches the rules.
     
@@ -25,6 +29,27 @@
     3. `taints` - Prevent pods being scheduled on a node.
 
     4. `tolerations` - Override a `taint`.
+
+7. __pod prioritisation control__ - Set `priority classes` and associate levels with `Pod specs`.
+
+    1. Define a `PriorityClass` as the `global default` (normally 0).
+
+      ```yaml
+      apiVersion: scheduling.k8s.io/v1beta1
+      kind: PriorityClass
+      metadata:
+        name: ultra
+      value: 999999
+      globalDefault: true
+      ```
+
+    ```yaml
+    spec:
+      containers:
+      - name: important-app
+        image: fedora:latest
+      priorityClassName: ultra
+    ```
 
 ---
 

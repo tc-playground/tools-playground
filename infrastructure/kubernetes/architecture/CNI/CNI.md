@@ -6,6 +6,8 @@
 
 2. Kubernetes first creates a container without a network interface and then calls a `CNI plug-in`.
 
+3. CNI — Container Networking Interface, which supplies Pods with IP addresses.
+
 ---
 
 ## Kubernetes Networking Model

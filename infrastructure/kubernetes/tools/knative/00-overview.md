@@ -93,5 +93,3 @@
 * `Revision` - A `snapshot` of a configuration.
 
 * `Route` - Split up traffic over a set of revisions.
-
-NB> Page 20 does not define a route inline.

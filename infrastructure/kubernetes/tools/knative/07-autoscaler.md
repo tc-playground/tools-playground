@@ -344,8 +344,11 @@ TODO
             * If the `Activator` is on the path, there `increased latency`, but, there is an additional layer of `buffering`.
             
 
+---
 
+## References
 
+* [Scryer - Predictive Autoscaling](https://netflixtechblog.com/scryer-netflixs-predictive-auto-scaling-engine-a3f8fc922270)
 
 
 
