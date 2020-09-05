@@ -38,3 +38,9 @@
         (options, errors) = parser.parse_args()
         print(options.nice)
         ```
+
+---
+
+## References
+
+* [Why Python has no `main` function](https://towardsdatascience.com/why-doesnt-python-have-a-main-function-3afe6a8d093)

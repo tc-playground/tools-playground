@@ -50,4 +50,8 @@
 
 * [Python 3 - Tutorial](https://www.python-course.eu/python3_course.php)
 
+* [Real Python](https://realpython.com/)
+
 * [Pythex - regex editor](https://pythex.org/)
+
+* [Python Setup](https://towardsdatascience.com/state-of-the-art-python-project-setup-82a046fc1f20)

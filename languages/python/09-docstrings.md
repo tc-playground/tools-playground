@@ -8,7 +8,7 @@
 
 ## Examples
 
-2. __Single-line Doc String__
+1. __Single-line Doc String__
 
     ```python
     def square(a):
