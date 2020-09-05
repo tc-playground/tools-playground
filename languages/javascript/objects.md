@@ -1,5 +1,8 @@
 # Objects
 
+## Object Prototypes
+
+---
 
 ## Spread `...` Operator
 
