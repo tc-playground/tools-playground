@@ -14,12 +14,7 @@
        
 * `socat` can apply lots of `address options` may be applied to the `streams`.
 
-* Related tools include `netcat` and `telnet`
-
----
-
-## Tasks
-
+* Related tools include `netcat` and `telnet`.
 
 ---
 
@@ -35,7 +30,7 @@
 
     * [bind - man](https://man7.org/linux/man-pages/man2/bind.2.html)
 
-* [socat - Concepts](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
+* [socat - Concepts - Cindy Sridharan](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
 
 * [Redirecting TCP-traffic to a UNIX domain socket under Linux](https://stackoverflow.com/questions/2149564/redirecting-tcp-traffic-to-a-unix-domain-socket-under-linux)
 
