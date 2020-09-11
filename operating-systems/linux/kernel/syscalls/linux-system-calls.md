@@ -73,7 +73,6 @@
 
     * Can be used by the kernel to `notify` _user-space_ applications of `events`.
 
-
 * [aio](https://linux.die.net/man/7/aio) - POSIX asynchronous I/O overview
 
     * Allows applications to initiate one or more I/O operations that are performed asynchronously (i.e., in the background). 
@@ -85,11 +84,6 @@
         * by instantiation of a thread.
         
         * no notification at all. 
-
-
-
-
-
 
 ---
 

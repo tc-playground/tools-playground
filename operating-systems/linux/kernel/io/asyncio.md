@@ -46,6 +46,8 @@
 
     * [Wikipedia](https://en.wikipedia.org/wiki/Epoll)
 
+* [kqueue - BSD](https://en.wikipedia.org/wiki/Kqueue)
+
 ---
 
 ## Async and Event Loop Libraries
@@ -70,9 +72,9 @@
 
 ## References
 
-* [Non-blocking I/O](https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957)
+* [Non-blocking I/O - Cindy Sridharan](https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957)
 
-* [epoll](https://medium.com/@copyconstruct/the-method-to-epolls-madness-d9d2d6378642)
+* [epoll - Cindy Sridharan](https://medium.com/@copyconstruct/the-method-to-epolls-madness-d9d2d6378642)
 
     * [epoll - Is broken! - 1](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/)
 
