@@ -4,6 +4,14 @@
 
 1. The `Domain Name Service` assigns hierarchical `names` to `ip addresses`.
 
+2. A `FQDN` is full name of a machine: `some-sub-domain.some-domain.xyx.`
+
+3. A `domain name` is the final two parts of a `FQDN`, e.g. `example.com`.
+
+---
+
+## Local DNS Configuration
+
 2. The `/etc/hosts` file on a machine can usually be used to provide a default mapping.
 
 3. The `/etc/resolv.conf` file on a machine is used to:
@@ -14,7 +22,7 @@
 
 4. The `/etc/nsswitch.conf` __Name Service Switch__ provides a variety of sources for common configuration databases and name resolution mechanisms.
 
-    1. This includes DNS.
+    1. This includes `DNS`.
 
 ---
 
@@ -26,9 +34,9 @@
 
     * There may be multiple `authoritative DNS servers` for a domain. Typically one will be the `master`.
 
-    * A `zone transfer` can be used to move DNS records.
+    * A `zone transfer` can be used to move `DNS records`.
 
-* A `Recursive DNS server` is one that is responsible for serving cached DNS records.
+* A `Recursive DNS server` is one that is responsible for serving cached `DNS records`.
 
 ---
 
@@ -41,3 +49,7 @@
 * [/etc/resolv.conf - Wikipedia](https://en.wikipedia.org/wiki/Resolv.conf)
 
 * [FQDN - Wikipedia](https://en.wikipedia.org/wiki/Fully_qualified_domain_name)
+
+---
+
+* [Dynamic DNS](https://hackaday.com/2020/08/25/linux-fu-your-own-dynamic-dns/)

@@ -12,7 +12,7 @@
 
 * `HTTP` is designed to permit intermediate network elements to improve or enable communications between clients and servers.
 
-    * Proxies, Caches, CDN, etc.
+    * __Proxies__, __Caches__, __CDN__, etc.
 
 * An `HTTP User Agent` is the application utilising HTTP, web browser, mobile application, command line cool, etc.
 
@@ -44,23 +44,23 @@
 
 ## HTTP Methods
 
-* __GET__     - Requests `get` a representation of the specified resource.
+1. __GET__     - Requests `get` a representation of the specified resource.
 
-* __HEAD__    - Requests `get the header` information for a resource, without the response body.
+2. __HEAD__    - Requests `get the header` information for a resource, without the response body.
 
-* __POST__    - Requests `update` the specified resource.
+3. __POST__    - Requests `update` the specified resource.
 
-* __PUT__     - Requests `create` the specified resource.
+4. __PUT__     - Requests `create` the specified resource.
 
-* __DELETE__  - Requests `delete` the specified resource
+5. __DELETE__  - Requests `delete` the specified resource
 
-* __TRACE__   - Requests `echoes the received request` so that a client can see modifications made by intermediate servers.
+6. __TRACE__   - Requests `echoes the received request` so that a client can see modifications made by intermediate servers.
 
-* __OPTIONS__ - Requests `returns the HTTP methods` that the server supports.
+7. __OPTIONS__ - Requests `returns the HTTP methods` that the server supports.
 
-* __CONNECT__ - Requests `convert the request connection to a transparent TCP/IP tunnel`, to provide (HTTPS) via unencrypted HTTP proxy.
+8. __CONNECT__ - Requests `convert the request connection to a transparent TCP/IP tunnel`, to provide (HTTPS) via unencrypted HTTP proxy.
 
-* __PATCH__   - Requests `apply partial modifications` to a resource.
+9. __PATCH__   - Requests `apply partial modifications` to a resource.
 
 ---
 
@@ -68,13 +68,13 @@
 
 * __Informational__ - `1XX`
 
-* __Successful__    - `2XX`
+* __Successful__    - `2XX` - Success.
 
-* __Redirection__   - `3XX`
+* __Redirection__   - `3XX` - The resource is somewhere else.
 
-* __Client Error__  - `4XX`
+* __Client Error__  - `4XX` - Client did something wrong.
 
-* __Server Error__  - `5XX`
+* __Server Error__  - `5XX` - Server did something wrong.
 
 ---
 
@@ -101,7 +101,13 @@
 
 ## References
 
+* [HTTP Overview - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
 * [HTTP 1.1 - RFC-7231 ](https://tools.ietf.org/html/rfc7231)
+
+* [HTTP - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+* [HTTP Status - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 * [HTTP - Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
