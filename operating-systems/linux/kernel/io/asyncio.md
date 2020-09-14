@@ -4,17 +4,6 @@
 
 ---
 
-## File Descriptors
-
-* A `file descriptor` is associated with a `process` and contains `metadata` on `files` open by a process.
-
-    * e.g. `file seek position in bytes`.
-
-    * e.g. `open input/output files`.
-
-* A `process` can have multiple `file descriptors`.
-
-    * When creating a new `process`, the `options` specified denote what `file descriptors` are inherited.
 
 ---
 
