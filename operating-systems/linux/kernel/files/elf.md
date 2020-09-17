@@ -95,32 +95,6 @@
 
 ---
 
-elfutils
-
-    /usr/bin/eu-addr2line
-    /usr/bin/eu-ar – alternative to ar, to create, manipulate archive files
-    /usr/bin/eu-elfcmp
-    /usr/bin/eu-elflint – compliance check against gABI and psABI specifications
-    /usr/bin/eu-findtextrel – find text relocations
-    /usr/bin/eu-ld – combining object and archive files
-    /usr/bin/eu-make-debug-archive
-    /usr/bin/eu-nm – display symbols from object/executable files
-    /usr/bin/eu-objdump – show information of object files
-    /usr/bin/eu-ranlib – create index for archives for performance
-    /usr/bin/eu-readelf – human-readable display of ELF files
-    /usr/bin/eu-size – display size of each section (text, data, bss, etc)
-    /usr/bin/eu-stack – show the stack of a running process, or coredump
-    /usr/bin/eu-strings – display textual strings (similar to strings utility)
-    /usr/bin/eu-strip – strip ELF file from symbol tables
-    /usr/bin/eu-unstrip – add symbols and debug information to stripped binary
-
-
-
-
-
-
----
-
 ## Commands
 
 * `sudo apt install pax-utils`
@@ -130,18 +104,28 @@ elfutils
 
 * `dumpelf /bin/ps | less`
 
-* `readelf -h /bin/ls`
-* `readelf -l /bin/ls`
-* `readelf -S /bin/ls`
-* `readelf -a /bin/ls`
+* __Examine ELF File__
 
-* `scanelf -e /bin/ps`
+    * `readelf -h /bin/ps` - Headers
+    * `readelf -l /bin/ps` - Segment (Program Headers)
+    * `readelf -S /bin/ps` - Sections
+    * `readelf -a /bin/ps` - All
 
-* `execstack -q /bin/ps`
+* `scanelf -e /bin/ps` - Scan ELF binaries for stuff
 
+* `execstack -q /bin/ps` - Manage `executable stack` flag.
 
 ---
 
 ## References
 
 * [ELF 101](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
+
+* [ELF Kicker Tools](http://www.muppetlabs.com/~breadbox/software/elfkickers.html)
+
+* [ElF Format - pdf](http://www.skyfree.org/linux/references/ELF_Format.pdf)
+
+* [ElF Format - txt](http://www.muppetlabs.com/~breadbox/software/ELF.txt)
+
+
+
