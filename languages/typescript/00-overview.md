@@ -17,7 +17,9 @@
 
 * [TypeScript - HandBook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
-* [TypeScript Book - GitHub](https://github.com/basarat/typescript-book)
+* [TypeScript Deep Dive Book - GitHub](https://github.com/basarat/typescript-book)
+
+* [TypeScript Deep Dive Book - GitBook](https://basarat.gitbook.io/typescript/)
 
 ---
 

@@ -10,8 +10,6 @@
 
 * `Pick<T,K>` - Constructs a type by `picking` the set of properties K from T.
 
-
-
 ---
 
 ## References
