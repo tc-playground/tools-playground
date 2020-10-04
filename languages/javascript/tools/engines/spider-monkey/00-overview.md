@@ -1,7 +1,5 @@
 # Spider Monkey
 
----
-
 ## Introduction
 
 * `SpiderMonkey` is Mozilla's JavaScript engine.

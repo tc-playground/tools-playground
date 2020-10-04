@@ -6,6 +6,8 @@
 
 * `JavaScript` is a `dynamic` language - `objects` properties can `added`/`removed` at `runtime`.
 
+* `JavaScript` is `compiled at execution time`.
+
 ---
 
 ## References
