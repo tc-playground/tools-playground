@@ -327,6 +327,7 @@
         "openvpn",
         "opptr",
         "optparse",
+        "osdev",
         "osptr",
         "outform",
         "overlayfs",
