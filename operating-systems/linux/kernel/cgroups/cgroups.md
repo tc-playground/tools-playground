@@ -2,6 +2,8 @@
 
 ## Introduction
 
+* `cgroups` are a facility built into the kernel to set `resource utilization limits` on any `process` on the `system`. 
+
 * `cgroups` are mechanism to add `limits` to (Linux) `process`.
 
     * __Resource Limits__ - A group can be configured not to:
@@ -146,3 +148,5 @@
 * `man cgconfig.conf`
 
 * [Linux Control Groups and Process Isolation](https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process)
+
+* [Introduction to cgroups - Part 1](https://www.redhat.com/sysadmin/cgroups-part-one)
