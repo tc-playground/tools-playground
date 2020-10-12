@@ -1,5 +1,7 @@
-# VS Code Extensions
+# VS Code Overview
 
-## Language 
+* [VSCode Remote Extensions](https://code.visualstudio.com/docs/remote/remote-overview)
+
+## Language Plugins
 
 * [VS Code Golang](https://github.com/golang/vscode-go) - `Golang` language support and debugger.
