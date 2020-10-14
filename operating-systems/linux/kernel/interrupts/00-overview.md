@@ -38,7 +38,7 @@
 
 ---
 
-## Hardware Interrupt Lines
+## Hardware Interrupt Line Implementations
 
 * There are two main types of `interrupt`: 
 
