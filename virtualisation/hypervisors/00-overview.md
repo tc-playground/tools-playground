@@ -22,6 +22,8 @@
 
         * `KVM` are `linux kernel modules` that can convert the operating system into a Type-1 hypervisor. 
 
+* `Hypervisors` have strong security implications, as, a compromised hypervisor is impossible to detect by hosted operating systems.
+
 ---
 
 ## References
