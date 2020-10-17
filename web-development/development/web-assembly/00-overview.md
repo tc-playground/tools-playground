@@ -1,15 +1,38 @@
-# Web Assembly
+# WebAssembly
+
+* `WebAssembly` is intended to be compilation target.
+
+* `WebAssembly` is designed to have a `compact binary form`.
+
+* `WebAssembly` is designed to support `streaming compilation`.
+
+* `WebAssembly` can work with many languages but does not include standard libraries.
+
+* `WebAssembly` is `sand-boxed`, and, protects against some classes of `exploit`.
+
+* `WebAssembly bytecode` is executed by a `virtual machine`.
+
+    > This virtual machine only has access to `Web APIs` and not the entire operating system (unlike the `JVM`, etc).
+
+* `WebAssembly files` can be verified and compiled by the `virtual machine` in a `single pass`.
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 ## References
 
-* [Web Assembly](https://medium.com/@mikevdg/why-webassembly-is-a-big-deal-a308d72c6de1)
+* [WebAssembly - Specification](https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf)
 
-* [Rust Web Assembly](https://rustwasm.github.io/book/game-of-life/introduction.html)
+* [WebAssembly - Intermediate Format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
 
-* [JavaScript FFI](https://medium.com/paloit/speed-up-your-javascript-with-rust-7661922562fa)
+* [WebAssembly - JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
 
-* [Code generating a WebAssembly 6502 emulator from specifications](https://blog.scottlogic.com/2020/08/26/codegen-6502-webassembly.html)
-
-* [https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html](https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html)
