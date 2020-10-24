@@ -2,18 +2,36 @@
 
 ## Introduction
 
-* `Open redirects` a used to a website the attacker controls.
+1. `Open redirects` are used to redirect a target to website the attacker controls.
 
-1. __URL Parameter Redirects__
+    * This is important as further attack can be staged from the attackers pages.
 
-2. __<meta> Tag Redirects__
+2. `Open redirect mechanisms` fall into 3 main categories:
 
-3. __Browser Location__
+    1. __URL Parameter Redirects__ - Via browser request.
 
-    * `window.location = https://www.google.com`
+        * Example - `https://www.google.com/?redirect_to=https://www.attacker.com`
 
-    * `window.location.href = https://www.google.com`
+        * The parameters can be named anything: 'url=', 'redirect=', 'next=', 'r=', 'u='. 
+        
+        * The server issues a `3XX` redirect on interpretation.
 
-    * `window.location.replace(https://www.google.com)`
+    2. __<meta> Tag Redirects__ - Via `HTML`.
 
+        * `<meta> tags` can tell browsers to refresh a web page and make a GET request to a URL defined in the tag’s `content` attribute:
 
+            * `<meta http-equiv="refresh" content="0; url=https://www.google.com/">`
+
+    3. __Browser Location__ - Via client-side `JavaScript`.
+
+        * `window.location = https://www.google.com`
+
+        * `window.location.href = https://www.google.com`
+
+        * `window.location.replace(https://www.google.com)`
+
+3. `redirect target urls` can be used to change the `domain` of the target url:
+
+    * `www.example.com` -> `www.example.com.<attack-domain.com>` - DNS resolves starting at the RHS root.
+
+    * Other special `url encoded` might be used to similar effect.
