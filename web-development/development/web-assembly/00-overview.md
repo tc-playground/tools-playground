@@ -16,23 +16,25 @@
 
 * `WebAssembly files` can be verified and compiled by the `virtual machine` in a `single pass`.
 
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## References
 
-* [WebAssembly - Specification](https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf)
+* [WebAssembly](https://webassembly.org/)
 
-* [WebAssembly - Intermediate Format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
+* [WebAssembly - Specification](https://webassembly.github.io/spec/core/intro/index.html)
 
-* [WebAssembly - JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+    > [PDF](https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf)
+
+    * [Stack Machine (Execution)](https://webassembly.github.io/spec/core/exec/index.html)
+
+    * [Binary Format](https://webassembly.github.io/spec/core/binary/index.html)
+
+    * [Text Format](https://webassembly.github.io/spec/core/text/index.html)
+
+* [WebAssembly - MDN](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
+    * [WebAssembly - Intermediate Format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
+
+    * [WebAssembly - JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
 
