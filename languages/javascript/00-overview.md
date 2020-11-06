@@ -4,9 +4,9 @@
 
 * `JavaScript` is an `object prototype` based language - New `objects` are instantiated be `cloning` existing objects.
 
-* `JavaScript` is a `dynamic` language - `objects` properties can `added`/`removed` at `runtime`.
+* `JavaScript` is a __very__ `dynamic` language - `objects` properties can `added`/`removed` at `runtime` and `prototypes` can be changed.
 
-* `JavaScript` is `compiled at execution time`.
+* `JavaScript` can be `compiled at execution time`.
 
 ---
 

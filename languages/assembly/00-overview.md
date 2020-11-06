@@ -37,7 +37,7 @@
     
     * Uninitialized space in memory for variables can be defined using `resb`, `resw`, `resd`, `resq` and `rest` instructions.
     
-    ```bash
+    ```asm
     section .bss
         filename:   resb    255           ; Reserve 255 bytes
         number:     resb    1             ; Reserve 1 byte

@@ -10,11 +10,15 @@
 
 * [Web Assembly in 5 minutes](https://www.jesuisundev.com/en/understand-webassembly-in-5-minutes/)
 
-* [Web Assembly Revolution](https://www.javascriptjanuary.com/blog/webassembly-neither-web-nor-assembly-but-revolutionary)
+* [WebAssembly: Neither Web, Nor Assembly, but Revolutionary](https://www.javascriptjanuary.com/blog/webassembly-neither-web-nor-assembly-but-revolutionary)
 
 * [WebAssembly](https://medium.com/@mikevdg/why-webassembly-is-a-big-deal-a308d72c6de1)
 
 * [WebAssembly - Cloud Native Extensibility](https://thenewstack.io/webassembly-could-be-the-key-for-cloud-native-extensibility)
+
+* [Bytecode Alliance Lays out Plans for WebAssembly on the Server-side](https://www.infoq.com/news/2020/10/bytecode-alliance-one-year/)
+
+* [Understanding WebAssembly text format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
 
 ---
 
