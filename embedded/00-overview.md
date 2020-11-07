@@ -2,9 +2,12 @@
 
 ## Portals
 
-* [](https://magpi.raspberrypi.org/)
+* [Raspberry Pi](https://magpi.raspberrypi.org/)
 
 ---
+## Embedded Operating Systems
+
+* [Micro Controller OS](https://en.wikipedia.org/wiki/Micro-Controller_Operating_Systems)
 
 ## Embedded Projects
 
