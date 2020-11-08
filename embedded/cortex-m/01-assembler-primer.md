@@ -38,3 +38,13 @@
     * They are not instructions in the instruction set.
 
     * They change the way the code is assembled.
+
+---
+
+## References
+
+* [Cortex-M - Generic Users Guide](https://developer.arm.com/documentation/dui0497/a?lang=en)
+
+* [Cortex-M - Instruction Set](https://developer.arm.com/documentation/dui0497/a/the-cortex-m0-instruction-set/instruction-set-summary)
+
+* [Assembler USer Guide](https://www.keil.com/support/man/docs/armasm/armasm_deb1353593789871.htm)

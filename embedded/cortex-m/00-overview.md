@@ -32,24 +32,8 @@
 
 ## Exceptions
 
----
-
-## Exception stack frames
-
-* When the processor takes an `exception`, unless the exception is a `tail-chained` or a `late-arriving`
-exception, the processor pushes information onto the current `stack`. This operation is referred to
-as `stacking` and the structure of __eight data words__ is referred as the `stack frame`.
-
-     * Ref: Cortex M4 User Guide - Sec. 2.3.7
-
-> A `word` is `32 bits`. A `C-M4 register` is `32 bits`.
-
-* If `floating point mode` is enabled, and additional z
-    
-    * Ref: Cortex M4 User Guide - Fig. 2-3
+3
 
 ---
 
-## Memory
-
-* Memory starts at: `0x20000000`
+`

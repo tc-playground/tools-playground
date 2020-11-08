@@ -2,12 +2,16 @@
 
 * `MOV` - Move data within the processor wih out accessing memory. 
 
+    * __Immediate Addressing__
+
     > NB: Cannot move more than `8-bis` or to `high registers`. 
 
     * `MOV R1,#150      ; R0 = 150, value must be 8 bit`
     * `MOV R1,R2        ; R1=R2, copies value from R2 to R1.`
 
 * `LDR` - Load a `register` with either a `32-bit` constant value, or, another register.
+
+    * __Index Addressing__
 
     > Read a 32-bit value from memory to a register.
 
@@ -39,3 +43,19 @@
         ```
 
 * `NOP` - No operation. Do nothing.
+
+---
+
+## Logical Operations
+
+* `AND` - AND
+
+* `ORR` - OR
+
+* `EOR` - Exclusive OR.
+
+---
+
+## References
+
+* [Cortex-M - Instruction Set](https://developer.arm.com/documentation/dui0497/a/the-cortex-m0-instruction-set/instruction-set-summary)
