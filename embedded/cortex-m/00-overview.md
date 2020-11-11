@@ -24,16 +24,11 @@
 
     7. __Control Register__ - `CONTROL`.
 
+---
+
 ## Stack
 
-* `C-M4` stack grows from highest to lowest memory.
+* `Cortex-M` stack grows from highest to lowest memory.
 
----
-
-## Exceptions
-
-3
-
----
 
 `
