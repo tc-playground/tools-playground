@@ -175,6 +175,7 @@
         "binaverage",
         "bincount",
         "binsum",
+        "blinky",
         "brctl",
         "buffersize",
         "cardsuit",
