@@ -6,3 +6,7 @@
 
 * [Analyze Your Personal Netflix Data](https://www.dataquest.io/blog/python-tutorial-analyze-personal-netflix-data/)
 
+* [Deep Learning Course - Yann LeCun](https://cds.nyu.edu/deep-learning/)
+
+* [The Road map of Mathematics for Deep Learning](https://towardsdatascience.com/the-roadmap-of-mathematics-for-deep-learning-357b3db8569b)
+

@@ -10,3 +10,4 @@
 
 * [Next.js vs. React: The developer experience](https://blog.logrocket.com/next-js-vs-react-developer-experience/)
 
+* [Page Transitions In React](https://dev.to/joserfelix/page-transitions-in-react-1c8g)

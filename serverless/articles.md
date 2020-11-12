@@ -23,3 +23,12 @@
 ## Storage
 
 * [The Most Popular Cloud Native Storage Solutions](https://thenewstack.io/the-most-popular-cloud-native-storage-solutions/)
+
+---
+
+## Google
+
+* [Building Serverless Front-End Applications Using Google Cloud Platform](https://www.smashingmagazine.com/2020/11/serverless-frontend-applications-google-cloud-platform/)
+
+* [Durable](https://css-tricks.com/durable/)
+

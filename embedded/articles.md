@@ -19,3 +19,9 @@
 * [Coding the STM32 Blue Pill with Rust and Visual Studio Code](https://medium.com/coinmonks/coding-the-stm32-blue-pill-with-rust-and-visual-studio-code-b21615d8a20)
 
 * [Why Learn Embedded Rust on the STM32F103 Blue Pill](https://www.gregwoods.co.uk/microcontroller/embedded/rust/stm32/bluepill/why-learn-embedded-rust-on-the-stm32-blue-pill/)
+
+---
+
+## Operating Systems
+
+* [Ubuntu Core](https://ubuntu.com/core)
