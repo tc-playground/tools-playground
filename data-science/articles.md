@@ -10,3 +10,5 @@
 
 * [The Road map of Mathematics for Deep Learning](https://towardsdatascience.com/the-roadmap-of-mathematics-for-deep-learning-357b3db8569b)
 
+* [Introduction to Probabilistic Programming](https://towardsdatascience.com/intro-to-probabilistic-programming-b47c4e926ec5)
+
