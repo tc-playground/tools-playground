@@ -1,5 +1,9 @@
 # Embedded
 
+## Introduction
+
+* [So you want to build an Embedded Linux System?](https://jaycarlson.net/embedded-linux/)
+
 ## Portals
 
 * [Raspberry Pi](https://magpi.raspberrypi.org/)

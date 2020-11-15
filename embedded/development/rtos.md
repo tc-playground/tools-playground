@@ -1,4 +1,4 @@
-# Operating System
+# Real Time Operating System (RTOS)
 
 ## Software Flows
 
