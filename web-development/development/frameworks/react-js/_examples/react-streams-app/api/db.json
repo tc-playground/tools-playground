@@ -1,0 +1,28 @@
+{
+  "streams": [
+    {
+      "title": "A Cool Stream",
+      "description": "A Cool Stream",
+      "userId": "109481970420603360825",
+      "id": 1
+    },
+    {
+      "title": "Another Cool Stream",
+      "description": "Another Cool Stream",
+      "userId": "109481970420603360825",
+      "id": 2
+    },
+    {
+      "title": "Wicked Stream",
+      "description": "But is it though?",
+      "userId": "109481970420603360825",
+      "id": 3
+    },
+    {
+      "title": "A refactored Stream!",
+      "description": "A Stream created after the refactor.",
+      "userId": "109481970420603360825",
+      "id": 4
+    }
+  ]
+}
