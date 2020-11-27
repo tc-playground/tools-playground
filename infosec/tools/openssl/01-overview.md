@@ -21,6 +21,18 @@
         -subj "/C=US/ST=California/L=Mountain View/O=Your Organization/OU=Your Unit/CN=localhost"
     ```
 
+2. Validate certificate
+
+    ```bash
+    openssl verify -verbose -CAfile <(cat ~/Downloads/DigiCertTLSRSASHA2562020CA1.crt.pem ~/Downloads/DigiCertGlobalRootCA.crt.pem) ~/.ssh/sasjc.crt
+    ```
+
+3. Check certificate 
+
+    ```bash
+    openssl x509 -noout -text -in <path/to/cert.crt>
+    ```
+
 ---
 
 ## References
