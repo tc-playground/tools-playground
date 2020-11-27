@@ -2,9 +2,19 @@
 
 ## Introduction
 
-* `props system` - Passes data from a parent component to the __direct__ child component.
+* The React `Context` System is designed to share data that can be considered `“global”` for a tree of React components, such as the `current authenticated user`, `theme`, or preferred `language`.
 
-* `context system` - Pass data from a parent component to the __any__ child component.
+* `Context System` provides a mechanism to pass `props` directly to a child component __without__ passing them through intermediate components.
+
+    * `props system` - Passes data from a parent component to the __direct__ child component.
+
+    * `context system` - Pass data from a parent component to the __any__ child component.
+
+* `Context` provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
+
+    * `Context` provides `Provider` elements to store `global shared props`.
+
+    * `Context` provides `Consumer` elements to reference `global shared props`.
 
 ---
 
@@ -40,7 +50,7 @@
 
     * __single provider__
 
-        ```html
+        ```jsx
         <ColourContext.Provider value={this.state.colour}>
             <UserCreate/>
         </ColourContext.Provider>
@@ -48,7 +58,7 @@
 
     * __multiple providers__
 
-        ```html
+        ```jsx
         <LanguageContext.Provider value={this.state.language}>
             <ColourContext.Provider value={this.state.colour}>
                 <UserCreate/>
@@ -90,3 +100,9 @@
             }
         }
         ```
+    
+    ---
+
+    ## References
+
+    * [React Context System - Docs](https://reactjs.org/docs/context.html)
