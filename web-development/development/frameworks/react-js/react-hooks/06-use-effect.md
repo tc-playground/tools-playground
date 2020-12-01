@@ -24,6 +24,8 @@
 
     * The `effect function` will only be updated if one of these values changes. 
 
+    * If no dependencies are specified, it will only be run when component is first rendered.
+
 * __Conditional Execution__ - The `useEffect` hook can also be passed a `dependency array` of arguments to support conditional execution. 
 
     * __On Change__ - The function will only be executed if the specified values in the dependency array have changed.
@@ -39,7 +41,6 @@
         * This can be used to un-register `listeners`, `subscriptions`, `timers`, etc. 
 
         * NB: Emulates `componentWillAmount`/`componentDidUnmount`.
-
 
 * The `useEffect` function is stored inside the `functional component` and has access to the `state` and `props` in the `functional component`.
 
