@@ -25,3 +25,9 @@
 * [Kartograph](http://kartograph.org/)
 
 * [Leaflet](https://leafletjs.com/)
+
+---
+
+## Other
+
+* [Map Projections](https://www.leventhalmap.org/digital-exhibitions/bending-lines/education-activities/projection-lesson/)
