@@ -511,5 +511,6 @@
         "ysptr",
         "yubi",
         "zipfiles"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
