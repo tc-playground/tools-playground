@@ -22,8 +22,14 @@
 
 * `twos complement` can be calculated by:
 
-    * `Inverting the bits in the number`.
+    * `Inverting the bits in the number`. (`ones-complement`)
 
     * `Adding 1`.
 
 * `twos-complement` allows `addition` and `subtraction` to be performed efficiently via the `addition operation`.
+
+* `unsigned integers`
+
+    * Reserve the first bit to denote if the number is `positive` or `negative`.
+
+    * If negative, `two complement` can be used to perform subtraction via addition operations.

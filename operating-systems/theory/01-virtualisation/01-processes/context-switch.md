@@ -50,14 +50,25 @@
 
 ---
 
-## Saving the Processor State
+## Saving the current thread processor state
 
+1. Push processor registers onto to `stack` for the thread.
 
+    > Sometimes this operation can be implement with `register clobbering`.
 
-
+2. Store the current `SP` in the `Thread Control Buffer (TCB)` for the thread.
 
 ---
 
+## Loading the new thread processor state
+
+1. Pop `stored stack register values` from the `stack` into the processor registers.
+
+2. Retrieve the `stored SP` from the `Thread Control Buffer (TCB)` for the thread.
+
+3. Set the `current thread` in the `Thread Control Buffer`.
+
+---
 
 ## References
 
