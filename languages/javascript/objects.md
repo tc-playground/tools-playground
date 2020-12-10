@@ -40,6 +40,13 @@ Also note that you can provide any number of objects to merge:
 
 ---
 
+## JavaScript Object Comparisson
+
+* [Object.is()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description)
+
+
+---
+
 ## References
 
 * [Object Properties](https://dmitripavlutin.com/how-to-iterate-easily-over-object-properties-in-javascript/)
