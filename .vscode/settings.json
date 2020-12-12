@@ -50,6 +50,7 @@
         "Entrypoint",
         "Execve",
         "FAULTMASK",
+        "FCFS",
         "FQDN",
         "GANN",
         "GIFS",
@@ -78,6 +79,7 @@
         "Ipset",
         "JIRA",
         "Jupyter",
+        "Kartograph",
         "Kbyte",
         "Keil",
         "Knative",
@@ -94,6 +96,7 @@
         "Lockdown",
         "MITHM",
         "MITM",
+        "MLFQ",
         "MOTD",
         "MUTEX",
         "Minikube",
@@ -112,6 +115,7 @@
         "Netwide",
         "Numberphile",
         "OCIDs",
+        "OSTEP",
         "Octicons",
         "Onsi",
         "PCAP",
@@ -143,6 +147,7 @@
         "SIGUSR",
         "SMTPS",
         "SNAT",
+        "STCF",
         "STFM",
         "STREX",
         "Scryer",
@@ -352,6 +357,7 @@
         "musl",
         "namelookup",
         "nargs",
+        "nasm",
         "nbins",
         "ncat",
         "netfilter",
@@ -495,6 +501,7 @@
         "venv",
         "virtualenv",
         "vpcs",
+        "vruntime",
         "webservers",
         "whoami",
         "writefds",
@@ -510,5 +517,6 @@
         "ysptr",
         "yubi",
         "zipfiles"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }

@@ -1,6 +1,10 @@
 #include "kernel.h"
 
+// If the default SysTick granularity is 1ms, this, will defined interupts every 10ms.
+//
 #define QUANTA 10
+
+// Start 3 thread counters
 
 uint32_t count0 = 0;
 void task0(void) {
