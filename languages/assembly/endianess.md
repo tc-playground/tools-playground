@@ -24,7 +24,6 @@
 
 ---
 
-
 ## Little-Endian
 
 * __Least Significant First__ - `Least Significant Bit` to `Most Significant Bit`.
@@ -44,3 +43,11 @@
 * __Usage__ - `Intel`, `IBM`, etc.
 
 > The individual bytes still have the least significant bit last.
+
+---
+
+## Bi-Endian
+
+* Both `Little Endian` and `Big Endian`.
+
+* e.g. `ARM`.
