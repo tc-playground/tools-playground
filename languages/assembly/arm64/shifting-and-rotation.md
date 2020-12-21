@@ -18,6 +18,8 @@
 
 * The `Operand2` is passed through the `barrel shifter` before it is passed to the `ALU`.
 
+* There are instructions to access this directly.
+
 ```
 R1 -------------------------------+
                                    \

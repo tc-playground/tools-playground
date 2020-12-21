@@ -1,4 +1,4 @@
-# MOV Operations
+# Register Operations
 
 ## Introduction
 
