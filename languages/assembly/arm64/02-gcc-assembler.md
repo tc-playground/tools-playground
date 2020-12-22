@@ -10,6 +10,10 @@
 
 * `GCC Assembler` can help deal with `memory addressing and layout`.
 
+* `as` can be used to generate machine code `object file` from `assembler source`.
+
+* `ld` can be used to generate an `executable` from  one or more `object files`. One must contain a `_main` entrypoint.
+
 ---
 
 ## File Structure
@@ -38,6 +42,8 @@
     * 1 or 2 `operands` to the instruction.
 
     * An optional `comment`. Comments can be a `;`, `//`. `/*  */`.
+
+    * `immediate operands` can include `expressions (())` and `strings (')`
 
 * __Statements__
 

@@ -2,7 +2,13 @@
 
 ## Introduction
 
-* `MOV instructions` move data `between registers`
+* `MOV, MOVK, MOVN instructions` move data `between registers` with 3 main variants:
+
+    * `MOV` - Load from another register or immediate value/
+    
+    * `MOVK` - Load from another register or immediate value with shift.
+    
+    * `MOVN` - Load from another register or immediate value with negation.
 
 * `MOV instructions` are an assembler `alias`.
 
@@ -16,9 +22,8 @@
 
         * The extension operations let us extract a `byte`, `half-word`, or `word` parts from the second register.
 
-* `LSL instructions` provide a `logical shift` on the operands.
+* `LSL, LSR, ASR, ROR instructions` provide a `logical shift` on the operands.
 
-* `MOV`, `MOVK`, `MOVN` variants.
 
 ---
 
@@ -33,15 +38,23 @@
 * `MOV XD, #imm16{, LSL #shift}` - Move imm16 (16 bit immediate operand) into XD.
 
 * __Move and Shift__
+
     * `MOV X1, X2, LSL #1` - Move X2 into X1 and shift it left by 1.
+
     * `MOV X1, X2, LSR #1` - Logical shift right.
+
     * `MOV X1, X2, ASR #1` - Arithmetic shift right.
+
     * `MOV X1, X2, ROR #1` - Rotate right .
 
 * __Move and Shift Aliases__
+
     * `LSL X1, X2, #1` - Logical shift left.
+
     * `LSR X1, X2, #1` - Logical shift right.
+
     * `ASR X1, X2, #1` - Arithmetic shift right.
+
     * `ROR X1, X2, #1` - Rotate right.
 
 ---
@@ -54,10 +67,10 @@
 
 * __Example__: Load register X2 with the 64-bit hex value 0x1234FEDC4F5D6E3A.
 
-    * `MOV X2, #0x6E3A`
-    * `MOVK X2, #0x4F5D, LSL #16`
-    * `MOVK X2, #0xFEDC, LSL #32`
-    * `MOVK X2, #0x1234, LSL #48`
+    1. `MOV X2, #0x6E3A`
+    2. `MOVK X2, #0x4F5D, LSL #16`
+    3. `MOVK X2, #0xFEDC, LSL #32`
+    4. `MOVK X2, #0x1234, LSL #48`
 
 ---
 
@@ -70,6 +83,3 @@
     * Works just like MOV, except it reverses all the 1s and 0s as it loads the register. (`one-complement`).
 
 * Distinct ARM opcode. Used to: `calculate ones-complement`, `multiply by -1`, allow 17 bits of immediate data.
-
-
-
