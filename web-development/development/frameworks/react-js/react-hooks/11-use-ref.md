@@ -9,6 +9,10 @@
 
 * The `useRef` hook allows `functional components` to interact with DOM nodes.
 
+* `Refs` in React are used to store a reference to a React element and their values are persisted across re-render.
+
+* `Refs` are mutable objects. They can be updated and can hold values other than a reference to a React element.
+
 * The `userRef` hook can be used to get a `reference hook` with an `initial value`.
 
     * The `reference hook` needs to be attached to the target JSX component using the `ref` attribute.
@@ -24,6 +28,7 @@
     * This will persist through `re-renders`.
 
     * This can be used to hold a reference to properties defined inside functions to provide access to the external scope.
+
 
 ---
 
@@ -59,3 +64,5 @@ export default FocusInput
     * [useRef 1](https://www.youtube.com/watch?v=yCS2m01bQ6w&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A&index=28)
 
     * [useRef 2](https://www.youtube.com/watch?v=yCS2m01bQ6w&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A&index=28)
+
+* [A Thoughtful Way To Use React’s useRef() Hook](https://www.smashingmagazine.com/2020/11/react-useref-hook/)

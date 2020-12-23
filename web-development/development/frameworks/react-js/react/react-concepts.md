@@ -1,7 +1,9 @@
-STUB
+# React Concepts
 
-## Components
+## Mounting
 
-### Presentational Components
+* When a component is `mounted` it will be `rendered`.
 
-### Container Components
+* Once a component is `unmounted`, it will never be mounted again.
+
+> Do not set state in an unmounted component, because it will never be re-rendered.

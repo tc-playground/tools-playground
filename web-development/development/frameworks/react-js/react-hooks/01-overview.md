@@ -2,13 +2,15 @@
 
 ## Introduction
 
-* `react hooks` - provide a mechanism for sharing logic between components.
+* `react hooks` provide a mechanism for sharing logic between components.
 
   * Hooks are a way to reuse `stateful logic`, not `state` itself. 
 
-* `react hooks` - provide a mechanism to add `state` to `functional components`.
+* `react hooks` provide a mechanism to add `state` to `functional components`.
 
-* `react hooks` - provide a mechanism to add `life-cycle` methods to `functional components`.
+* `react hooks` provide a mechanism to add `life-cycle` methods to `functional components`.
+
+* `react hooks` are `composable` - a `hook` can be called from inside a `custom hook`.
 
 ---
 
