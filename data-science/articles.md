@@ -12,3 +12,9 @@
 
 * [Introduction to Probabilistic Programming](https://towardsdatascience.com/intro-to-probabilistic-programming-b47c4e926ec5)
 
+* [Build a Simple Chess AI in JavaScript](https://dev.to/zeyu2001/build-a-simple-chess-ai-in-javascript-18eg)
+
+* [Machine Learning Algorithms from Start to Finish in Python: SVM](https://towardsdatascience.com/machine-learning-algorithms-from-start-to-finish-in-python-svm-d9ff9b48fd1)
+
+* [The Ultimate Guide for Data Visualization](https://medium.com/user-pipeline/the-ultimate-guide-for-data-visualization-c98de0d3158d)
+
