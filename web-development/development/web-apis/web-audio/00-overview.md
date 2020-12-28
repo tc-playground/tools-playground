@@ -1,7 +1,5 @@
 # Web Audio API
 
----
-
 ## Introduction
 
 * The `Web Audio API` provides a powerful and versatile system for controlling audio.

@@ -7,3 +7,5 @@
 * [How to build a Slack bot with Node.Js in 2020](https://lucas-le-ray.com/blog/build-slackbot-nodejs-2020)
 
 * [Let’s Create Our Own Authentication API with Nodejs and GraphQL](https://css-tricks.com/lets-create-our-own-authentication-api-with-nodejs-and-graphql/)
+
+* [Getting Started with Svelte JS: Building a Shopping Cart](https://blog.bitsrc.io/getting-started-with-sveltejs-building-a-shopping-cart-with-code-snippets-71e1603b4449)

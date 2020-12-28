@@ -1,9 +1,26 @@
-# Web Workers
+# Web Workers API
+---
+
+## Introduction
+
+* `Web Workers` makes it possible to run a script operation in a `background thread` separate from the `main execution thread` of a web application.
+
+* `Web Workers` allow background threads to do additional work without blocking the main thread.
+
+---
+
+## Usage
+
+
+---
 
 ## References
 
-* [Managing Long-Running Tasks In A React App With Web Workers](https://www.smashingmagazine.com/2020/10/tasks-react-app-web-workers/)
+* [Web Workers API - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
-* [Svelte at the Edge](https://www.infoq.com/news/2020/10/svelte-edge-cloudflare-worker/)
+* [Using the Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
-* [Optimized media loading using Web Workers](https://blog.logrocket.com/optimized-media-loading-web-workers/)
+* [Web Workers - W3C](https://www.w3schools.com/html/html5_webworkers.asp/)
+
+* [The Basics of Web Workers](https://www.html5rocks.com/en/tutorials/workers/basics/)
+
