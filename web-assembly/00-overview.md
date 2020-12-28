@@ -2,7 +2,11 @@
 
 * `WebAssembly` is intended to be compilation target.
 
+* `WebAssembly` has a defined specification to implement `runtimes`.
+
 * `WebAssembly` is designed to have a `compact binary form`.
+
+* `WebAssembly` is designed to have a `human readable text form`
 
 * `WebAssembly` is designed to support `streaming compilation`.
 

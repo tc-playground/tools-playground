@@ -1,12 +1,6 @@
-# Web Assembly
+# Articles
 
-## Introduction
-
-* An `assembly instruction format` that can be targeted form `multiple languages` and executed in a `browser`.
-
----
-
-## References
+## General
 
 * [Web Assembly in 5 minutes](https://www.jesuisundev.com/en/understand-webassembly-in-5-minutes/)
 
@@ -22,20 +16,21 @@
 
 ---
 
-## References - Rust Web Assembly
+## Cloud Native
 
-* [Rust WebAssembly](https://rustwasm.github.io/book/game-of-life/introduction.html)
+* [WebAssembly - Cloud Native Extensibility](https://thenewstack.io/webassembly-could-be-the-key-for-cloud-native-extensibility)
 
-* [WebAssembly - 6502](https://blog.scottlogic.com/2020/08/26/codegen-6502-webassembly.html)
+* [Motoko, a programming language for building directly on the internet](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/)
 
-* [WebAssembly - CHIP-8](https://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html)
+* [Bringing the web up to Speed with Web Assembly](https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf)
 
-* [WebAssembly - Compiler](https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html)
 
-* [Build Your Own WebAssembly Compiler](https://www.infoq.com/presentations/webassembly-compiler/)
+
+---
+
+## Rust WebAssembly Articles
 
 * [JavaScript FFI](https://medium.com/paloit/speed-up-your-javascript-with-rust-7661922562fa)
-
 
 ---
 
@@ -46,16 +41,6 @@
 * [AssemblyScript](https://blog.bitsrc.io/typescript-to-webassembly-the-what-the-how-and-the-why-3916a2561d37)
 
 * [Porting JavaScript (or TypeScript) to AssemblyScript](https://www.fastly.com/blog/porting-javascript-or-typescript-to-assemblyscript)
-
----
-
-## References - Cloud Native
-
-* [WebAssembly - Cloud Native Extensibility](https://thenewstack.io/webassembly-could-be-the-key-for-cloud-native-extensibility)
-
-* [Motoko, a programming language for building directly on the internet](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/)
-
-* [Bringing the web up to Speed with Web Assembly](https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf)
 
 
 
