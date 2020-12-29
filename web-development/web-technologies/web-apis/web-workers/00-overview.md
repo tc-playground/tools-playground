@@ -7,10 +7,9 @@
 
 * `Web Workers` allow background threads to do additional work without blocking the main thread.
 
----
+* `Web Workers` run in a different global context than the current `window`. 
 
-## Usage
-
+    * `Web Workers` cannot access the `DOM`.
 
 ---
 
