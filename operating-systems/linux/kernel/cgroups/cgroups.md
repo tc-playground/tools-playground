@@ -149,4 +149,10 @@
 
 * [Linux Control Groups and Process Isolation](https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process)
 
-* [Introduction to cgroups - Part 1](https://www.redhat.com/sysadmin/cgroups-part-one)
+* __RedHat__
+
+    * [Introduction to cgroups - Part 1](https://www.redhat.com/sysadmin/cgroups-part-one)
+
+    * [How to manage cgroups with CPUShares](https://www.redhat.com/sysadmin/cgroups-part-two)
+
+    * [Managing cgroups the hard way-manually - Part 3](https://www.redhat.com/sysadmin/cgroups-part-three)

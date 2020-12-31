@@ -8,7 +8,7 @@
 
 ---
 
-* [Introduciton to initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
+* [Introduction to initcalls](https://www.collabora.com/news-and-blog/blog/2020/07/14/introduction-to-linux-kernel-initcalls/)
 
 * [Initcall Mechanism](https://kernelnewbies.org/Documents/InitcallMechanism)
 

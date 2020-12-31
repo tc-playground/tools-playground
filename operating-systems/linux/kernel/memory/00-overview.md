@@ -1,24 +1,26 @@
 # Memory Overview
 
----
+## Introduction
 
-## References
+* `Physical Memory` is the physical memory in the machine.
 
-* [What Every Programmer Should Know About Memory](https://akkadia.org/drepper/cpumemory.pdf)
+    * `Memory` is accessed over `instruction` and `data` busses.
 
-* __Linux Memory__
+    * `Memory` is present as `processor registers`, `caches (L1, L", L3)`, `RAM` and `persistent storage`.
 
-    * [Getting Physical with Memory](https://manybutfinite.com/post/getting-physical-with-memory/)
+* `Memory` is shared by `processes` running on the machine.
 
-    * [Anatomy of a Program in Memory](https://manybutfinite.com/post/anatomy-of-a-program-in-memory/)
+    * `Stack Memory` holds the `execution state` of a running `process/program`.
 
-    * [How the Kernel Manages Memory](https://manybutfinite.com/post/how-the-kernel-manages-your-memory/)
+    * `Heap Memory` holds the `structured state` of a running `process/program`.
 
-    * [The Thing King](https://manybutfinite.com/post/the-thing-king/)
+* `Virtual Memory` is implemented for `processes` by the Linux kernel.
 
-    * [Page Cache, the Affair Between Memory and Files](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/)
+* `Virtual Memory` is supported in `software` and `hardware` with `page tables`.
 
-    * [Journey to the Stack, Part I](https://manybutfinite.com/post/journey-to-the-stack/)
+* `Linux System calls` provide a mechanism to `allocate` and `deallocate` memory.
 
-    * [Epilogues, Canaries, and Buffer Overflows](https://manybutfinite.com/post/epilogues-canaries-buffer-overflows/)
+    * __Stack Memory__
+
+    * __Heap Memory__
 

@@ -98,3 +98,5 @@
 ## References
 
 * [Definitive Guide to System Calls](https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls)
+
+* [Linux System Calls](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
