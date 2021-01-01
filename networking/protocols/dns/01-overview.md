@@ -8,6 +8,8 @@
 
 3. A `domain name` is the final two parts of a `FQDN`, e.g. `example.com`.
 
+> `DNS` is a generic `service discovery` and `load-balancing` mechanism.
+
 ---
 
 ## Local DNS Configuration

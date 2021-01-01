@@ -105,7 +105,9 @@
 
 * [HTTP 1.1 - RFC-7231 ](https://tools.ietf.org/html/rfc7231)
 
-* [HTTP - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+* [HTTP - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+
+* [HTTP Methods- Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 * [HTTP Status - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 

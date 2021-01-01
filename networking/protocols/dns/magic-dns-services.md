@@ -12,8 +12,10 @@
 
 ---
 
-## Services
+## Dynamic Services
 
 * [xip.io](http://xip.io/)
 
 * [nip.io](https://nip.io/)
+
+* [Linux-Fu: Your Own Dynamic DNS](https://hackaday.com/2020/08/25/linux-fu-your-own-dynamic-dns/)
