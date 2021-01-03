@@ -1,5 +1,13 @@
 # Articles
 
+## Presentations
+
+* [Using WebAssembly and Threads (Chrome Dev Summit 2018)](https://www.youtube.com/watch?v=zgOGZgAPUjQ)
+
+* [WebAssembly for Web Developers (Google I/O ’19)](https://www.youtube.com/watch?v=njt-Qzw0mVY)
+
+---
+
 ## General
 
 * [Web Assembly in 5 minutes](https://www.jesuisundev.com/en/understand-webassembly-in-5-minutes/)
