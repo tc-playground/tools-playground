@@ -4,8 +4,6 @@
 
 * `impl` can be used to add `member functions` (`methods`) to an object.
 
-
-
 ---
 
 ## References

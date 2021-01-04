@@ -1,0 +1,5 @@
+# Missiles!
+
+```bash
+cargo run
+```
