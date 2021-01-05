@@ -18,6 +18,8 @@
 
 * `interface` promote `loose coupling` compared to `abstract classes`.
 
+> __Interface vs Type__ - _Interfaces_ can be `merged`, but, _types_ cannot. 
+
 ---
 
 ## Example
