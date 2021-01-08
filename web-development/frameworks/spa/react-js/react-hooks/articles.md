@@ -14,5 +14,12 @@
 
 * [Using ES6 Map with React State hooks](https://medium.com/swlh/using-es6-map-with-react-state-hooks-800b91eedd5f)
 
-* [](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
+---
 
+* [Use Hooks](https://usehooks.com/)
+
+* [userRef Hook](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
+
+* [useEffect Hook](https://daveceddia.com/react-hook-after-render/)
+
+* [Error Handling with React Hooks](https://medium.com/technofunnel/error-handling-in-react-hooks-e42ab91c48f4)
