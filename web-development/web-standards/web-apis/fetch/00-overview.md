@@ -50,3 +50,6 @@
 
 * [Introduction to fetch()](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 
+* [Using Fetch](https://css-tricks.com/using-fetch/)
+
+* [Fetch Wrapper](https://www.giacomocerquone.com/blog/fetch-wrapper)
