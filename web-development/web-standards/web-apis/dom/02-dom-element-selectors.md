@@ -1,6 +1,6 @@
 # DOM Selectors
 
-## Introduction
+## Overview
 
 * `DOM Elements` can be traversed from the `document` root name.
 
@@ -8,9 +8,21 @@
 
     * It is also possible to obtain `url`, `domain`, `char set`, `content type`, etc.
 
-* The modern way to select elements is `document.querySelectorAll(css-selector)`.
+* `DOM Elements` can be `selected` with `css-selectors`.
 
-    * Returns a `NodeList` collection.
+    1. __querySelectorAll(css-selector)__ - Get the first (or undefined) element.
+
+        * Example - `document.querySelector(css-selector)`.
+
+    2. __querySelectorAll(css-selector)__ - Get a all. A `NodeList` of zero or more elements.
+
+        * Example - `document.querySelectorAll(css-selector)`.
+
+        * Returns a `NodeList` collection.
+
+        * NB: Is not a `live` list. So will not reflect changes as they occur.
+    
+    3. __getElementById()__ - Get the first element with the specified id.
 
 ---
 
@@ -58,18 +70,13 @@
 
 ---
 
-
 ## Element Collection Types
 
 * `NodeList` - Contains `element nodes`, `text nodes` and `Array methods`.
 
-    * __Modern__
-
-    * 
+    * Text nodes represent `line breaks` and other text entities.
 
 * `HTMLCollection` - An indexed set of elements. 
-
-    * __Legacy__
 
     * These are `array-like` but do not have all the array methods.
 
