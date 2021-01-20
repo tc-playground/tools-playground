@@ -10,4 +10,16 @@
 
 ---
 
+## VSCode Extensions
+
+* `Live Server`
+
+* `Live Share`
+
+* `Auto Rename Tag`
+
+
+
+---
+
 * [Vanilla Web Projects](https://github.com/bradtraversy/vanillawebprojects)
