@@ -42,6 +42,8 @@
 
 ## References
 
+* [Introduction to Events - JavaScript Tutorial](https://javascript.info/events)
+
 * [Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)s
 
 * [EventListener - API MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventListener)
@@ -51,3 +53,4 @@
 * [DOM onevent handlers - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
 
 * [JavaScript Events](https://www.w3schools.com/js/js_events.asp)
+

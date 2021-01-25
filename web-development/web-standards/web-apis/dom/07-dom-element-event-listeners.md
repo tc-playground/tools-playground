@@ -6,9 +6,28 @@
 
 * `Event listeners` __register__ an `event object` to a `handling function`.
 
+* __addEventListener()/removeEventListener()__ - Event listeners can be registered via an `event name`.
+
+* __DOM Attributes__ - Event listeners can be registered via an `DOM attributes.`.
+
+
 ---
 
-## Example
+## Examples
+
+
+>  or an `HTML Attribute 'on<event>` property.
+### Configure HTML Attribute Event Listener
+
+```js
+const element = browser.querySelector('.button');
+button.onclick = function (e) {
+    console.log('Handled Event: ', e);
+    e.preventDefault();
+}
+```
+
+### Add Anonymous Event Listener
 
 ```js
 const element = browser.querySelector('.button');
@@ -17,6 +36,7 @@ button.addEventListener('click', e => {
     e.preventDefault();
 })
 ```
+### Add Named Event Listener
 
 ```js
 const element = browser.querySelector('.button');
@@ -32,7 +52,7 @@ const onClick = e => {
 
 ## References
 
-
+* [Introduction to Events - JavaScript Tutorial](https://javascript.info/events)
 
 * [EventListener - API MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventListener)
 
