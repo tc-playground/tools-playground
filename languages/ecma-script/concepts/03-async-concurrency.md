@@ -21,13 +21,17 @@
 
 * __Promises__
 
-    * [JavaScript Promises: An introduction](https://web.dev/promises/)
-
     * [Promises - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-    * [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+    * [Using Promises - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
-    * [JavaScript Promises for Dummies](https://www.digitalocean.com/community/tutorials/javascript-promises-for-dummies)
+    * [Promises chaining](https://javascript.info/promise-chaining)
+
+    * [Promise Chaining](https://www.javascripttutorial.net/es6/promise-chaining/)
+
+    * [JavaScript Promises: An introduction](https://web.dev/promises/)
+
+    * [JavaScript Promises - Digital Ocean](https://www.digitalocean.com/community/tutorials/javascript-promises-for-dummies)
 
 * __Async/Await__
 
