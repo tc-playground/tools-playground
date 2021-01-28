@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
+    <script>
+        // Scene
+        var scene = new THREE.Scene();
+
+        // Camera
+        var camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth/window.innerHeight, 
+            0.1, 
+            1000
+        )
+        camera.position.z = 5;
+        
+        // Renderer
+        var renderer = new THREE.WebGLRenderer({antialias: true});
+        renderer.setClearColor("#000000");  // Background Colour - Black
+        renderer.setSize(window.innerWidth,window.innerHeight);
+        document.body.appendChild(renderer.domElement); // Add renderer to DOM. Creates a 'Canvas' element.
+
+        // Geometries
+        const geometry = new THREE.BoxGeometry();
+        const material = new THREE.MeshLambertMaterial({color: 0x00ff00}); // Green
+        const cube = new THREE.Mesh( geometry, material );
+        scene.add( cube );
+
+        // Lights
+        var light = new THREE.PointLight(0xFFFFFF, 1, 1000)
+        light.position.set(0,0,0);
+        scene.add(light);
+        var light2 = new THREE.PointLight(0xFFFFFF, 2, 1000)
+        light.position.set(0,0,25);
+        scene.add(light2); 
+
+        // Render
+        const animate = function () {
+            // Queue next animation frame.
+            requestAnimationFrame( animate );
+            // Update Geometries.
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+            // Update Screen w.r.t Camera.
+            renderer.render( scene, camera );
+        };
+        animate();
+
+        // RayCaster
+        var raycaster = new THREE.Raycaster();
+        var mouse = new THREE.Vector2(); 
+        function onMouseMove(event) {
+            event.preventDefault();
+
+            // Get current mouse co-ordinates.
+            mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+            mouse.y = -( event.clientY / window.innerHeight ) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            var intersects = raycaster.intersectObjects(scene.children, true);
+            if (intersects && intersects.length > 0) {
+                // Should only be one cube...
+                for (var i = 0; i < intersects.length; i++) {
+                    intersects[i].object.material.color.r = 1;
+                    intersects[i].object.material.color.g = 0;
+                    intersects[i].object.material.color.b = 1;
+                }
+            } else {
+                material.color.r = 0;
+                material.color.g = 1;
+                material.color.b = 0;
+            }
+
+        }
+        window.addEventListener('mousemove', onMouseMove);
+        // window.addEventListener('click', onMouseMove);
+
+        // Window Management - Recalculate rendering window and camera aspect on resize.
+        window.addEventListener('resize', () => {
+            renderer.setSize(window.innerWidth,window.innerHeight);
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+        })
+    </script>
+</body>
+</html>

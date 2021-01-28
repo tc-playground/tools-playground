@@ -1,0 +1,9 @@
+/* Set body to fill whole screen with no scroll-bars */
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
