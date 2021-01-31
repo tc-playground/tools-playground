@@ -16,6 +16,8 @@
 
   * `socat TCP-LISTEN:1234,reuseaddr,fork UNIX-CLIENT:some-socket`
 
+  * `curl -X POST localhost:1234/call -d '{ "name": "Functions Team" }' ; echo`
+
   * `sudo lsof -n -i -s TCP:LISTEN,ESTABLISHED`
 
 * __FDK Parts__

@@ -2,6 +2,8 @@
 
 * [socat - Concepts - Cindy Sridharan](https://medium.com/@copyconstruct/socat-29453e9fc8a6)
 
+* [Getting started with socat, a multipurpose relay tool for Linux](https://www.redhat.com/sysadmin/getting-started-socat)
+
 * [Redirecting TCP-traffic to a UNIX domain socket under Linux](https://stackoverflow.com/questions/2149564/redirecting-tcp-traffic-to-a-unix-domain-socket-under-linux)
 
 * [Create HTTP Server with Socat](https://unix.stackexchange.com/questions/448837/create-https-server-with-socat)
