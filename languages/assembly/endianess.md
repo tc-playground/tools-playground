@@ -18,7 +18,7 @@
 
     * This is the intuitive encoding.
 
-    * This is the encoding used byt eh `TCP` protocol.
+    * This is the encoding used by the `TCP` protocol.
 
 * __Usage__ - `Motorola`, `IBM`, etc.
 
@@ -30,7 +30,9 @@
 
     * __1__ : `01 00 00 00`
 
-    * The `bytes` are in `reverser order`.
+    * The `bytes` are in `reverse order`.
+
+    * The `bits` in each `byte` are in `expected order`.
 
 * __Advantages__
 
@@ -42,7 +44,7 @@
 
 * __Usage__ - `Intel`, `IBM`, etc.
 
-> The individual bytes still have the least significant bit last.
+> NB: The individual bytes still have the least significant bit last.
 
 ---
 
