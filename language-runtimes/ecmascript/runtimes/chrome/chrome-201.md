@@ -50,3 +50,9 @@
     * `iFrames` form a `Frame Tree`.
 
 > Avoid globals. Each object should have a well defined lifetime.
+
+---
+
+## Resource
+
+* [Anatomy of the browser 201 (Chrome University 2019) - YouTube](https://www.youtube.com/watch?v=u7berRU9Qys&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx&index=3)

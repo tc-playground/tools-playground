@@ -118,4 +118,4 @@
 
 ## References
 
-* [Chrome 101 - Anatomy of the Browser](https://www.youtube.com/watch?v=PzzNuCk-e0Y&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx)
+* [Anatomy of the browser 101 (Chrome University 2019) - YouTube](https://www.youtube.com/watch?v=PzzNuCk-e0Y&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx)
