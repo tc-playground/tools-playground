@@ -28,6 +28,8 @@
 
 * [Essence of linear algebra - 3blue1brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
+* [Linear Algebra - Gilbert Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
+
 * [Linear Algebra - Khan Academy](https://www.khanacademy.org/math/linear-algebra)
 
 * [Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear-algebra-machine-learning-7-day-mini-course/)
