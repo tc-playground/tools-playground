@@ -18,3 +18,5 @@
 
 * [The Ultimate Guide for Data Visualization](https://medium.com/user-pipeline/the-ultimate-guide-for-data-visualization-c98de0d3158d)
 
+* [A.I Learns CS:GO (How Convolutional Neural Networks work)](https://www.youtube.com/watch?v=3WLbxi9MSpA&feature=emb_title)
+
