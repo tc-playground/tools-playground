@@ -556,6 +556,7 @@
         "transpiled",
         "transpiler",
         "tshark",
+        "tslog",
         "typeof",
         "ubridge",
         "uchar",
