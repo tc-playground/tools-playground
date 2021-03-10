@@ -22,6 +22,10 @@
 
     * [NPM - Creating an Organization](https://docs.npmjs.com/creating-an-organization)
 
+* __Link__
+
+    * [Understanding npm-link](https://medium.com/dailyjs/how-to-use-npm-link-7375b6219557)
+
 ---
 
 ## Articles
