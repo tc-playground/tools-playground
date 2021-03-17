@@ -79,4 +79,35 @@
             * __NO__ - If `some column vectors share  the same plane` i.e. if one `column vector` is the `addition` or `multiple` of another then a _dimension collapses_ and the answer is `no`.
 
 
+---
+
+## Multiply a Matrix by a Vector
+
+* There are several way to do it: `column ways` and `row ways`.
+
+> Multiplying a `matrix` but a `vector` will result in a `vector`.
+
+* __Column Ways__
+
+    1. Iterate through each `i-th element` in the `vector` and use it to multiply each corresponding `i-th column vector`.
+
+    2. __Sum__ the resulting column vectors.
+
+    ```
+    | 2 5 | | 1 |  =  1 * | 2 | + 2 * | 5 |  =  | 2 | + | 10 |  =  | 12 |
+    | 1 3 | | 2 |         | 1 !       | 3 |     | 1 |   |  6 |     |  7 |
+    ```
+
+* __Row Ways (Dot Product)__
+
+    1. Iterate through each `i-th row` in the `matrix` and multiply it by the `vector` 
+
+        * Multiply corresponding `i-th elements` in each `vector` and `sum` the results. __Dot Product__.
+
+    > This is the `dot product`.
+
+    ```
+    | 2 5 | | 1 |  =  | (1 * 2) + (2 * 5) |  =  | 2 + 10 |  =  | 12 |
+    | 1 3 | | 2 |     | (1 * 1) + (2 * 3) |     | 1 +  6 |  =  |  7 |
+    ```
 
