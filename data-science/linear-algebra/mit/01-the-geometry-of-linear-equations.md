@@ -1,8 +1,10 @@
 # Lecture 1: The geometry of linear equations 
 
-## Introduction
+* [Video](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-1-the-geometry-of-linear-equations/)
 
-* [Lecture 1: The geometry of linear equations ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-1-the-geometry-of-linear-equations/)
+---
+
+## Introduction
 
 * __Linear Equations__ - `n` equations, `n` unknowns. `Linear` means the solutions define straights line in geometric space.
 
@@ -87,7 +89,7 @@
 
 > Multiplying a `matrix` but a `vector` will result in a `vector`.
 
-* __Column Ways__
+* __Column Ways (Linear Combinations of A)__
 
     1. Iterate through each `i-th element` in the `vector` and use it to multiply each corresponding `i-th column vector`.
 
@@ -111,3 +113,8 @@
     | 1 3 | | 2 |     | (1 * 1) + (2 * 3) |     | 1 +  6 |  =  |  7 |
     ```
 
+---
+
+## References
+
+* [Linear Algebra - Video Lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
