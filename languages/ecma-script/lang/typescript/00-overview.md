@@ -6,7 +6,6 @@
 
 * `TypeScript` has optional typing.
 
-
 ---
 
 ## TypeScript References
