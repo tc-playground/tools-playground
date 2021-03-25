@@ -18,7 +18,11 @@
 
 * __Row Picture__ - Each `row` defines an `equation` in `geometric space`.
 
+    * __Row based matrix multiplication__ - For (i,j) take the `dot product` of M1 row i and M2 col j. 
+
 * __Column Picture__ - Each `column` is a `vector`. Defines the `linear combinations` of each `dimension`.
+
+    * __Col based matrix multiplication__ - For (i,j) take the `dot product` of M1 row i and M2 col j. 
 
 * __Geometric Interpretation__ - As each `column` is a `vector` there is a `geometric interpretation`.
 
@@ -107,6 +111,8 @@
         * Multiply corresponding `i-th elements` in each `vector` and `sum` the results. __Dot Product__.
 
     > This is the `dot product`.
+
+    > To calculate `entry (m,n)` in the `result`, take the `dot product` of `row m` and `column n`. 
 
     ```
     | 2 5 | | 1 |  =  | (1 * 2) + (2 * 5) |  =  | 2 + 10 |  =  | 12 |

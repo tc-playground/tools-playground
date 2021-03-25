@@ -16,6 +16,8 @@
 
 * __Elimination Matrices__
 
+    * Expressing elimination steps in terms of matrices and matrix multiplication.
+
 * __Matrix Multiplication__
 
 ---
@@ -88,14 +90,13 @@ x =  2
 
 ## Matrix Elimination - What are elimination steps expressed as matrix operations?
 
-
 > `Row Vector` - `1 x n` matrix.
 
-> `Row Vector    * Matrix  =>  Row Vector`
+> `Matrix * Row Vector  =>  Row Vector` ?
 
 > `Column Vector` - `n x 1 matrix.
 
-> `Column Vector * Matrix  =>  Column Vector`
+> `Matrix * Column Vector =>  Column Vector`
 
 * What is the matrix that performs the first step of Gaussian elimination?
 
@@ -112,7 +113,30 @@ x =  2
 | -3 1 0 |  *  | 3 8 1 |  =  | 0 2 -2 |
 |  0 0 1 |     | 0 4 1 |     | 0 4  1 |
 
+  E(2, 1)
+
+|  1 0 0 |  < E(2,1) is the elimination matrix that will perform the elimination step on equation 2 entry (2,1) for the pivot (1,1).
+| -3 1 0 |
+|  0 0 1 |
 ```
+
+* Check/Recompute a single entry in the result matrix using the Dot Ppoduct.
+
+    ```
+    ## Check R(2, 3)
+
+    |  1 0 0 |     | 1 2 1 |     | 1 2  1 |
+    | -3 1 0 |  *  | 3 8 1 |  =  | 0 2 -2 |
+    |  0 0 1 |     | 0 4 1 |     | 0 4  1 |
+
+        M1             M2           R
+
+    * Check Row 2 of M1 and Col 3 of M2.
+
+    * Calculate Dot Product - (-3 * 1) + (1 * 1) + (1 * 0) = -3 + 1 + 0 = -2  
+    ```
+
+
 ---
 
 ## Identity MAtrix
