@@ -8,7 +8,7 @@
 
 * __Elimination__ A method to solve a set of linear equations. Usually expressed as `matrix operations`.
 
-    * Will `succeed` if the matrix is good.
+    * Will `succeed` if the matrix is 'good'. Has linear combination in all dimension.
 
     * Will `fail` if one or more `column vectors` lie on same `n-dimensional plane`.
 
@@ -16,9 +16,17 @@
 
 * __Elimination Matrices__
 
-    * Expressing elimination steps in terms of matrices and matrix multiplication.
+    * Express `Gaussian elimination steps` in terms of `matrices` and `matrix multiplication`.
+
+    * The set of stepwise  `elimination matrices` required to solve an initial matrix can be combined into a single `elimination matrix` 
+
+        * This is achieved by multiplying the `elimination matrices` together in order.
 
 * __Matrix Multiplication__
+
+    * `Associative` - The `brackets` around matrix algebra expressions can be moved.
+
+    * `Non-Commutative` - The `order` of the matrices matters when multiplying them.
 
 ---
 
@@ -120,7 +128,7 @@ x =  2
 |  0 0 1 |
 ```
 
-* Check/Recompute a single entry in the result matrix using the Dot Ppoduct.
+* Check/Recompute a single entry in the result matrix using the Dot Product.
 
     ```
     ## Check R(2, 3)
