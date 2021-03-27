@@ -30,6 +30,20 @@
 
 ---
 
+## Rust Ecosystem
+
+* __Package Registry__ - `crate.io`
+
+* __Build__ - `cargo`
+
+* __Linter__ - `clippy`
+
+* __Code Formatter__ - `rustfmt`
+
+* __Compiler__ - `rustc`
+
+---
+
 ## Package Management
 
 * The `cargo` tool is used for package management.
