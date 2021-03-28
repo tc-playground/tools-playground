@@ -1,12 +1,20 @@
 # Traits
 
+* `Traits` are like `interfaces` in other languages, however, __new traits can be implemented for existing types__.
+
+    * So, abstractions can be created after-the-fact, and applied to existing libraries.
+
+* [Traits - Rust Blog](https://blog.rust-lang.org/2015/05/11/traits.html)
+
+
+
 ## Overview
 
 * `Rust` does not have a concept of `struct inheritance`.
 
 * `Traits` are similar to `interfaces` and provide `composition`.
 
-* `Trait` do have a concept of `struct inheritance`.
+* `Traits` do have a concept of `struct inheritance`.
 
 * A `trait` tells the Rust compiler about functionality a particular type has and can share with other types.
 
