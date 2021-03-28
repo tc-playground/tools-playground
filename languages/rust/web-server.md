@@ -90,6 +90,50 @@
 
             > If applicable passes on to OS networking stack.
 
+---
+
+## Web Framework Tasks
+
+* Creating and listening to web sockets
+
+* Parsing and returning HTTP/1 and HTTP/2
+
+* Routing requests based on the url to handlers
+
+* Parsing url parameters
+
+* Implementing SSL or TSL
+
+* Creating and reading Sessions
+
+---
+
+## Crates
+
+### Async
+
+* [tokio](https://docs.rs/tokio/1.4.0/tokio/)
+* [async-std](https://docs.rs/async-std/1.9.0/async_std/)
+
+### Networking
+
+* [hyper](https://docs.rs/hyper/0.14.5/hyper/) - Low-level HTTP server components.
+* [reqwest](https://docs.rs/reqwest/0.11.2/reqwest/) - HTTP client components/
+### Web Framework
+
+* [Actix](https://actix.rs/)
+* [Warp](https://docs.rs/warp/0.3.1/warp/)
+* [Rocket](https://rocket.rs/)
+* [Tide](https://github.com/http-rs/tide)
+
+---
+
+## References
+
+* [Choosing a Rust web framework, 2020 edition](https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/)
+
+* [Zero to Production in Rust](https://zero2prod.com/)
+
 
 
 

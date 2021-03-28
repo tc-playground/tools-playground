@@ -498,6 +498,7 @@
         "realarray",
         "renderable",
         "repr",
+        "reqwest",
         "resb",
         "resd",
         "resolv",
