@@ -85,6 +85,7 @@
             * __NO__ - If `some column vectors share  the same plane` i.e. if one `column vector` is the `addition` or `multiple` of another then a _dimension collapses_ and the answer is `no`.
 
 
+
 ---
 
 ## Multiply a Matrix by a Vector
@@ -102,7 +103,11 @@
     ```
     | 2 5 | | 1 |  =  1 * | 2 | + 2 * | 5 |  =  | 2 | + | 10 |  =  | 12 |
     | 1 3 | | 2 |         | 1 !       | 3 |     | 1 |   |  6 |     |  7 |
+
+                     (1 * Col1) + (2 * Col2)
     ```
+
+
 
 * __Row Ways (Dot Product)__
 

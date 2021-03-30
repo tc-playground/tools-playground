@@ -24,13 +24,14 @@
 
 * __Matrix Multiplication__
 
+
     * `Associative` - The `brackets` around matrix algebra expressions can be moved.
 
     * `Non-Commutative` - The `order` of the matrices matters when multiplying them.
 
 ---
 
-## Elimination
+## Gaussian Elimination
 
 ```
 # Equations
@@ -98,13 +99,21 @@ x =  2
 
 ## Matrix Elimination - What are elimination steps expressed as matrix operations?
 
-> `Row Vector` - `1 x n` matrix.
+* `Row Vector` - `1 x n` matrix.
 
-> `Matrix * Row Vector  =>  Row Vector` ?
+> `Row Vector * Matrix  =>  Row Vector` 
+
+    * order matters: (RV1 * MRow1) + (RV2 * MRow2) +  ... + (RVN + MRowN) 
+
+    * Linear Combination of Rows
 
 > `Column Vector` - `n x 1 matrix.
 
-> `Matrix * Column Vector =>  Column Vector`
+> `Matrix * Column Vector =>  Column Vector` 
+
+    * (order matters): (MCol1 * CV1) + (MCol2 * CV2) +  ... + (MColN + CVN) 
+
+    * Linear Combination of Columns
 
 * What is the matrix that performs the first step of Gaussian elimination?
 
