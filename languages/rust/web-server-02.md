@@ -10,11 +10,21 @@
 
 * `Fluent API Pattern`
 
-* __`Option` Type__
+* __Special Types__
 
-    * A special type to handle if a value is exists and is not null or undefined.
+    * __`Option` Type__
 
-    * Can be used to specify fields that are `optional`.
+        * A special type to handle if a value is exists and is not null or undefined.
+
+        * Can be used to specify fields that are `optional`.
+
+    * __`Result` Type__
+
+        * A special type to represent a result: `Ok(value)` or `Err(error)`.
+
+            * `.expect(exception)` - If `ok` return the value or raises the `exception`.
+
+            * `.unwrap()` - if `ok` return value or throw an `exception`.
 
 * __Associated Function Syntax__ - `::`  - Invoke an `impl` method on a `struct`.
 
@@ -59,5 +69,54 @@
     * `Display` trait is implemented on all primitive types in Rust.
 
     * `Debug` trait can be used for complex structures via the `#[derive()]` traits on structs.
+
+    * `FromStr` trait.
+
+    * Implement Trait: `impl <trait> for <struct>`
+
+    * `#[derive(Debug)]` - Add debug output display to a struct.
     
+* __Declarative Macros__ - `!`
+
+    * Macros take the encapsulated code with them and generate standard code out of it.
+
+* __Procedural Macros__
+
+---
+
+## Web Framework
+
+* How does it parse the incoming PATH and HTTP METHOD?
+
+* Can I parse JSON requests directly from the HTTP body?
+
+* How can I parse URI parameters from the request?
+
+* How can I add a middleware?
+
+* How do I pass objects like a database connection to the route handlers?
+
+* How do I have to return a HTTP response?
+
+* Does it have a built-in session or cookie handling?
+
+---
+
+## Warp
+
+* In `Warp`, the main concept is the `Filter`. 
+
+* A `filter` is implemented via a `trait`, and can `parse`, `mutate` and `return` data.
+
+* Different `filters` can be composed with the `and` keyword.
+
+* `warp::Reply` / `warp::Rejection`
+
+---
+
+## Serde
+
+* The `serde` library bundles serialization and deserialization methods in one framework.
+
+* `#[derive(Serialize)]` - Add serialization to a struct.
 
