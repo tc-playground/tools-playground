@@ -339,6 +339,7 @@
         "figsize",
         "findtextrel",
         "fnproject",
+        "ftrace",
         "genericized",
         "genkey",
         "getent",
