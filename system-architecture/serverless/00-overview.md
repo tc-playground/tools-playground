@@ -16,6 +16,8 @@
 
 * [AWS Lambda Extensions API](https://www.theregister.com/2020/10/12/aws_lambda_extensions_api/)
 
+* [Serverless Land](https://serverlessland.com/patterns)
+
 ---
 
 ## Google
