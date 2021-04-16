@@ -1,5 +1,3 @@
-
+# Signals
 
 * `SIGCHLD`
-
-* ``
