@@ -64,6 +64,8 @@
 
     *  The ambient occlusion texture is a `grayscale image` that will `fake shadows` in the surface's crevices.
 
+    > For the default `Three.js shader` you need create an additional `uv coordinates` property called `uv2`.
+
 * __Metalness Textures__ 
 
     * A `grayscale image` that will specify which parts of the `mesh geometry` are `metallic (white)` and `non-metallic (black`). 
@@ -144,11 +146,21 @@ const roughnessTexture = textureLoader.load('/textures/door/roughness.jpg')
 
 ## UV Coordinates
 
-* __Get UV Coordinates__
+* __UV Coordinates__
 
     ```js
     geometry.attributes.uv
     ```
+
+* __Create UV Coordinates for Ambient Occlusion Map__
+
+    ```js
+    mesh.geometry.setAttribute('uv2', new THREE.BufferAttribute(mesh.geometry.attributes.uv.array, 2))
+    material.aoMap = ambientOcclusionTexture
+    material.aoMapIntensity = 1
+    ```
+
+    > NB: For the default `Three.js` shader this attribute is called `uv2`.
 
 * __Transforming Textures__
 
