@@ -4,11 +4,11 @@
 
 * `CSS Modules` are `CSS files` in which all `class names` and `animation names` are `scoped locally` by default.
 
-* `CSS Moduels` are not a `specification`.
+* `CSS Modules` are not a `specification`.
 
 * `CS Module` are `process` in a `build step` e.g `Webpack` that generates `locally scoped CSS files`.
 
-  e.g. This process will be diferrent for different `build systems` (e.g. `werbpack`) and development framesworks (e.g. `React`).
+  e.g. This process will be different for different `build systems` (e.g. `webpack`) and development frameworks (e.g. `React`).
 
 ---
 

@@ -27,16 +27,25 @@ function Box(props: JSX.IntrinsicElements['mesh']) {
 }
 
 export default function App() {
+  // var camera = new THREE.PerspectiveCamera(
+  //   75,
+  //   window.innerWidth/window.innerHeight, 
+  //   0.1, 
+  //   1000
+  // )
+  // camera.position.z = 100
+
+  var renderer = new THREE.WebGLRenderer({antialias: true});
+  renderer.setClearColor("#000000");  // Background Colour - Black
+  // renderer.setSize(window.innerWidth,window.innerHeight)
+
   return (
-    <>
-      <h1>Hello</h1>
-      <Canvas>
-        <ambientLight />
-        <pointLight position={[10, 10, 10]} />
-        <Box position={[-1.2, 0, 0]} />
-        <Box position={[1.2, 0, 0]} />
-      </Canvas>
-    </>
+    <Canvas gl={renderer} /*camera={camera}*/>
+      {/* <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+      <Box position={[-1.2, 0, 0]} />
+      <Box position={[1.2, 0, 0]} /> */}
+    </Canvas>
   )
 }
 

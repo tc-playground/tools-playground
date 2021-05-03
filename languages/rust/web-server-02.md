@@ -121,6 +121,3 @@
 * `#[derive(Serialize)]` - Add serialization to a struct.
 
 * Supports: `JSON`, `BSON`, `YAML`, `TOML`, `XML`, etc.
-
-
-
