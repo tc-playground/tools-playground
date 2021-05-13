@@ -29,3 +29,8 @@
 
   * [Docs](https://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
 
+---
+
+## Go Modules
+
+* [Using Go Modules - Go Blog](https://blog.golang.org/using-go-modules)
