@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/**
+ Apply to all elements.
+ */
+* {
+    /* Padding or border on elements do not affect the width of them. */
+    box-sizing: border-box;
+}
+
+/**
+ Flexbox column that is centred with no scroll bars.
+ */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
