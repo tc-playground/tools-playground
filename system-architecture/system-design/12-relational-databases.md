@@ -10,6 +10,10 @@
 
 * Non-Relation Databases - Do no impose tabular structures.
 
+* __Querying Capabilities__
+
+    * __SQL__
+
 * __ACID Transactions__
 
     * __Atomicity__ - Mulitple sub-operations either all succeed or all fail. e.g. Transfer funds.
