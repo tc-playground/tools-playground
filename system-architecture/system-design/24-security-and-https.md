@@ -23,7 +23,7 @@
 
             * `server public key`
 
-            * `Server details` - `DNS`, companty info, etc.
+            * `Server details` - `DNS`, company info, etc.
 
             * `Digital Signature` - Token signed by the `private key` of the `CA`. 
 

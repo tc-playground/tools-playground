@@ -1,6 +1,4 @@
-document.querySelectorAll('h2,h4,p').forEach( node => {
-  console.log(node.innerText)
-})
+
 
 
 AlgoExpert

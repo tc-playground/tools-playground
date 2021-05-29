@@ -4,6 +4,8 @@
 
 * `Streaming` - Better when instant updates are required. e.g. Chat app.
 
+    * e.g. `WebSockets`.
+
 ---
 
 ## Polling And Streaming
