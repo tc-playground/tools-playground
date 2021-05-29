@@ -1,15 +1,13 @@
-# Design Fundamentals
+# System Design Fundamentals
 
-
-
-* __Foundational Knowledge__
+* __1. Foundational Knowledge__
 
     > Core concepts
 
     * CLient/Server Model
     * Network Protocols
 
-* __System Characteristics__
+* __2. System Characteristics__
 
     > Metrics of the system and the tradeoffs
 
@@ -19,7 +17,7 @@
     * Redundancy
     * Consistency
 
-* __Components__
+* __3. Components__
 
     > Provide the required characteristics
 
@@ -29,7 +27,7 @@
     * Rater Limiters
     * Leader Election
 
-* __Technology__
+* __4. Technology__
 
     > Implementations of the components
 
